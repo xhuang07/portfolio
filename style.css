@@ -135,7 +135,7 @@ html:not(html:hover) .cursor::after {
 img{
     display: none;
     width:600px;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 
@@ -162,9 +162,25 @@ div.details img {
     /* left: 100px;  */
 }
 
+div.detailsX img {
+    width: 100%;
+    height: auto;
+    display: block; 
+    position: static;  
+    /* bottom: 100px; */
+    /* left: 100px;  */
+}
+
 .details {
     margin-top: 20px; 
     margin-bottom: 20px;  
+    /* margin-right: 10px; */
+    /* margin-left: 10px; */
+}
+
+.detailsX {
+    margin-top: 0px; 
+    margin-bottom: 0px;  
     /* margin-right: 10px; */
     /* margin-left: 10px; */
 }
