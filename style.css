@@ -60,6 +60,8 @@ a.projectNav:hover {
     position: relative;
 }
 
+
+
 /* Link-inside project */
 a.insideLink{
     color: orangered;
@@ -134,10 +136,17 @@ html:not(html:hover) .cursor::after {
 
 img{
     display: none;
-    width:600px;
-    border-radius: 2px;
+    width:500px;
+    border-radius: 10px;
 }
 
+
+/* strawberry image in the self intro */
+img.strawberry{
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+}
 
 .project:hover img {
      display: block; 
@@ -148,8 +157,19 @@ img{
      margin-left: auto;
      margin-right: auto; 
      border: 2px solid #05160F;
-
 }
+
+/* below codes control effect when hover on the strawberry image */
+/* .introduction:hover img {
+    display: block; 
+    position: absolute;
+    bottom: 100px;
+    left: 100px;  
+    height: auto;
+    margin-left: auto;
+    margin-right: auto; 
+    border: 2px solid #05160F;
+} */
 
 
 /* details of images  */
@@ -214,6 +234,13 @@ section.content {
     word-wrap: break-word;
 }
 
+.introduction {
+    /* padding-bottom: 20px; */
+    position: -webkit-sticky;
+    position: relative;
+    word-wrap: break-word;
+}
+
 .content {
     padding-top: 20px; 
     padding-right: 20px;
@@ -254,6 +281,19 @@ h2 {
     line-height: 115px;
 }
 
+h2.selfintro {
+    font-family: AkzidenzGroteskStd-BoldEx;
+    font-size: 75px;
+    color: #05160F;
+    text-transform: none;
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 75px;
+    letter-spacing: -1px;
+
+}
+
+
 
 h3 {
     font-family: GrifoL-Regular;
@@ -288,6 +328,13 @@ h5.regular {
     font-family: AkzidenzGroteskStd-Regular;
 }
 
+h5.intro {
+    font-family: AkzidenzGroteskStd-Md;
+    font-size: 40px;
+    line-height: 50px; 
+    letter-spacing: 0;
+}
+
 h5.bottomFooter {
     text-align: right;
     padding-bottom: 30px;
@@ -316,6 +363,7 @@ h6.tools {
 }
 
 
+
 footer {
     text-align: right;
     padding-right: 20px;
@@ -325,3 +373,9 @@ footer {
     font-size: 25px; 
     letter-spacing: 0;
   }
+
+
+#strawberryimg{
+    display: inline-block;
+    margin-left:-30px;
+}
