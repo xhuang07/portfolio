@@ -638,6 +638,13 @@ h1 {
     font-weight: bold;
 }
 
+.italicIntro {
+    font-style: italic;
+    font-family: grifo_sregular;
+
+    font-weight: 100;
+}
+
 
 h2 {
     /* font-family: AkzidenzGroteskStd-BoldEx; */
@@ -705,7 +712,7 @@ h5 {
 }
 
 h5.regular {
-    font-family: akzidenz-grotesk_stdregular;
+    font-family: akzidenz-grotesk_stdmedium;
     /* font-family: aktiv-grotesk,sans-serif;
     font-weight: 400;
     font-style: normal; */
