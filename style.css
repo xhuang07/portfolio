@@ -202,8 +202,6 @@ html {
 
 
 /* Grifo M */
-
-
 @font-face {
     font-family: 'grifo_mblack';
     src: url('./Fonts/Grifo/GrifoM/grifom-black-webfont.woff2') format('woff2'),
@@ -368,6 +366,56 @@ html {
 
 
 
+/* Akkurat */
+
+@font-face {
+    font-family: 'akkuratbold';
+    src: url('./Fonts/Akkurat/akkurat-bold-webfont.woff2') format('woff2'),
+         url('./Fonts/Akkurat/akkurat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'akkuratbold_italic';
+    src: url('./Fonts/Akkurat/akkurat-bolditalic-webfont.woff2') format('woff2'),
+         url('./Fonts/Akkurat/akkurat-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'akkuratlight';
+    src: url('./Fonts/Akkurat/akkurat-light-webfont.woff2') format('woff2'),
+         url('./Fonts/Akkurat/akkurat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'akkuratlight_italic';
+    src: url('./Fonts/Akkurat/akkurat-lightitalic-webfont.woff2') format('woff2'),
+         url('./Fonts/Akkurat/akkurat-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'akkuratregular';
+    src: url('./Fonts/Akkurat/akkurat-reg-webfont.woff2') format('woff2'),
+         url('./Fonts/Akkurat/akkurat-reg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'akkuratregular_italic';
+    src: url('./Fonts/Akkurat/akkurat-regitalic-webfont.woff2') format('woff2'),
+         url('./Fonts/Akkurat/akkurat-regitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 /* navigation css */
 header {
@@ -506,7 +554,7 @@ html:not(html:hover) .cursor::after {
 img{
     display: none;
     width:500px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 
@@ -574,6 +622,28 @@ div.detailsX img {
     /* margin-left: 10px; */
 }
 
+
+
+/* Hero Image for Product  */
+
+.heroImage {
+    margin-top: 60px; 
+    margin-bottom: 0px;  
+    /* margin-right: 10px; */
+    /* margin-left: 10px; */
+}
+div.heroImage img {
+    width: 100%;
+    height: auto;
+    display: block; 
+    position: static;  
+    /* bottom: 100px; */
+    /* left: 100px;  */
+}
+
+
+
+
 .date {
     margin-bottom: 240px;  
 }
@@ -617,9 +687,13 @@ section.content {
 
 .projectDescription {
     padding-bottom: 20px;
-  
 }
 
+/* Product Design Template */
+
+.productDescription {
+    padding-bottom: 20px;
+}
 
 
 /* Typography */
@@ -697,7 +771,7 @@ h4 {
 }
 
 
-/* project details description */
+/* branding project details description */
 h5 {
     /* font-family: AkzidenzGroteskStd-BoldEx; */
     font-family: akzidenz-grotesk_stdBdEx;
@@ -710,14 +784,12 @@ h5 {
     text-align: left;
     line-height: 32px; 
 }
-
 h5.regular {
     font-family: akzidenz-grotesk_stdmedium;
     /* font-family: aktiv-grotesk,sans-serif;
     font-weight: 400;
     font-style: normal; */
 }
-
 h5.intro {
     font-family: akzidenz-grotesk_stdmedium;
     /* font-family: aktiv-grotesk-extended,sans-serif;
@@ -727,13 +799,70 @@ h5.intro {
     line-height: 50px; 
     letter-spacing: 0;
 }
-
 h5.bottomFooter {
     text-align: right;
     padding-bottom: 30px;
-    padding-top: 30px;
-    
+    padding-top: 30px;  
 }
+
+
+
+/* product design project details description */
+h5.productTitle{
+    color: #05160F;
+    font-family: grifo_sregular;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+h5.productDetails{
+    color: #05160F;
+    font-family: akkuratregular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+h5.productSmallTitle{
+    color: #05160F;
+    font-family: akkuratbold;
+    font-size: 18px;
+    /* font-weight: 700; */
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+h5.productLegend{
+    color: #848484;
+    font-family: akkuratregular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+h6.productTOC {
+    font-family: akkuratregular;
+    color: #337CF3;
+    /* padding-bottom: 30px; */
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0.8px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.productDesginDescription {
+    padding-bottom: 96px;
+}
+
+ul {
+    /* list-style-type: "*"; */
+}
+
 
 /* tools information */
 h6 {
@@ -744,7 +873,6 @@ h6 {
     text-align: left;
     letter-spacing: 0;
 }
-
 h6.tools {
     font-family: grifo_sregular;
     font-size: 25px;
@@ -752,8 +880,10 @@ h6.tools {
     letter-spacing: 0;
     line-height: 25px;
     padding-bottom: 30px;
-
 }
+
+
+
 
 
 
