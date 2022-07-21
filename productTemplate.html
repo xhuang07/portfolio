@@ -16,6 +16,8 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
     <link rel="shortcut icon" type="image/png" href="./images/favicon.png">
     <script src="https://d3js.org/d3.v5.js"></script>
+    <link rel="stylesheet" type="text/css" href="./easyScrollDots.min.css" />
+
 </head>
 
 <body style="background-color:#EEEDE9;">
@@ -47,7 +49,7 @@
         <div class="w3-col w3-container m7 l7">
             <nav>
                 <a class="nav__link" href="index.html">Projects</a>
-                <a class="nav__link" href="info.html">Info</a>
+                <a class="nav__link" href="info2.html">Info</a>
             </nav>
         </div>
     </header>
@@ -80,23 +82,32 @@
                     CSS<br />
                 </h6>
 
+                <h6>Project Length</h6>
+                <h6 class="tools">
+                    One Year
+                </h6>
+
                 <h6>My Contribution</h6>
                 <h6 class="tools">
                     Research Analysis <br />
                     User Interviews <br />
-                    UX/UI<br />
+                    UX/UI <br />
+                    Design System <br />
                     End-to-end Points<br />
                 </h6>
 
             </div>
         </div>
 
+
+
+
         <!--Right Container-->
         <div class="w3-col w3-container m7 l7" style="padding-top: 200px; padding-right:80px;">
 
 
             <!--00. Overview-->
-            <div class="productDesginDescription reveal">
+            <div class="productDesginDescription reveal" data-scroll-indicator-title="00. Overview">
                 <h6 class="productTOC">00. Overview</h6>
                 <h5 class="productTitle">Redesign the Experiment Center</h5>
                 <h5 class="productDetails">Experiment Center (XPC) is an intricate web application that enable all
@@ -112,7 +123,7 @@
 
 
             <!--01. Challenge-->
-            <div class="productDesginDescription reveal">
+            <div class="productDesginDescription reveal" data-scroll-indicator-title="01. Challenge">
                 <h6 class="productTOC">01. Challenge</h6>
                 <h5 class="productTitle">Different User Types</h5>
                 <h5 class="productDetails">There are two major types of users using XPC, experienced users who create
@@ -140,7 +151,7 @@
 
 
             <!--02. KICKOFF-->
-            <div class="productDesginDescription reveal">
+            <div class="productDesginDescription reveal" data-scroll-indicator-title="02. Kickoff">
                 <h6 class="productTOC">02. Kickoff</h6>
                 <h5 class="productTitle">Discovering the Dealbreakers</h5>
                 <h5 class="productDetails">A crucial part of my role was to identify usability issues and pain points in
@@ -195,7 +206,7 @@
 
 
             <!--03. Mapping-->
-            <div class="productDesginDescription reveal">
+            <div class="productDesginDescription reveal" data-scroll-indicator-title="03. Mapping">
                 <h6 class="productTOC">03. Mapping</h6>
                 <h5 class="productTitle">Contents Architecture</h5>
                 <h5 class="productDetails">After several meetings with PO and data scientists about what are the full
@@ -214,8 +225,8 @@
 
 
             <!--04. KEY FEATURES-->
-            <div class="productDesginDescription reveal">
-                <h6 class="productTOC">04. KEY FEATURES</h6>
+            <div class="productDesginDescription reveal" data-scroll-indicator-title="04. Key Features">
+                <h6 class="productTOC">04. Key Features</h6>
                 <h5 class="productTitle">Main User Flows</h5>
                 <h5 class="productDetails">Based on the painpoints that were collected from the user interviews, we try
                     to emphsize important stages during each user flow. Promoting their outcomes are expected to
@@ -241,7 +252,7 @@
 
 
             <!--05. LOW-FI-->
-            <div class="productDesginDescription reveal">
+            <div class="productDesginDescription reveal" data-scroll-indicator-title="05. Brainstorming">
                 <h6 class="productTOC">05. BRAINSTORMING</h6>
                 <h5 class="productTitle">Low-fi Layout Exploration</h5>
                 <h5 class="productDetails">Because Experiment Center (XPC) curates a great amount of data and
@@ -258,7 +269,7 @@
 
 
             <!--06. HIGH-FI-->
-            <div class="productDesginDescription reveal">
+            <div class="productDesginDescription reveal" data-scroll-indicator-title="06. Design">
                 <h6 class="productTOC">06. DESIGN</h6>
                 <h5 class="productTitle">Vanilla Wireframes</h5>
                 <h5 class="productDetails">For the first run of wireframing, I mapped out all the possible pages. No
@@ -284,7 +295,7 @@
         <!--Right Container-->
         <div class="w3-col w3-container m7 l7" style="padding-top: 200px; padding-right:80px;">
             <!--07. Iterations-->
-            <div class="productDesginDescription reveal">
+            <div class="productDesginDescription reveal" data-scroll-indicator-title="07. Iterations">
                 <h6 class="productTOC">07. Iterations</h6>
                 <h5 class="productTitle">Refinements based on the feedbacks</h5>
                 <h5 class="productDetails">Vanilla wireframes were barely the first step to construct the whole web
@@ -306,7 +317,7 @@
         <!--Right Container-->
         <div class="w3-col w3-container m7 l7" style="padding-top: 200px; padding-right:80px;">
             <!--08. Style Guide-->
-            <div class="productDesginDescription reveal">
+            <div class="productDesginDescription reveal" data-scroll-indicator-title="08. Style Guide">
                 <h6 class="productTOC">08. Style Guide</h6>
                 <h5 class="productTitle">Create Master Symbols</h5>
                 <h5 class="productDetails">I turned frequent used UI components into master symbols so they can be
@@ -329,8 +340,8 @@
         <!--Right Container-->
         <div class="w3-col w3-container m7 l7" style="padding-top: 200px; padding-right:80px;">
             <!--09. Style Guide-->
-            <div class="productDesginDescription reveal">
-                <h6 class="productTOC">09. Style Guide</h6>
+            <div class="productDesginDescription reveal" data-scroll-indicator-title="09. Design System">
+                <h6 class="productTOC">09. Design System</h6>
                 <h5 class="productTitle">Establish the Design System</h5>
                 <h5 class="productDetails">XPC design system is composed of universal assets — style guides, components,
                     modules, and page templates which are considered universal or fundamental in nature. This means they
@@ -355,9 +366,9 @@
         </div>
         <!--Right Container-->
         <div class="w3-col w3-container m7 l7" style="padding-top: 200px; padding-right:80px;">
-            <!--10. Finalize Designs-->
-            <div class="productDesginDescription reveal">
-                <h6 class="productTOC">10. Finalize Designs</h6>
+            <!--10. High-fidelity-->
+            <div class="productDesginDescription reveal" data-scroll-indicator-title="10. High-fidelity">
+                <h6 class="productTOC">10. High-fidelity</h6>
                 <h5 class="productTitle">Finetuning Details</h5>
                 <h5 class="productDetails">No detail is too small. At the last stage of design, I polished up all the
                     screens and with these two questions in mind:
@@ -393,7 +404,7 @@
 
 
             <!--11. Implementation-->
-            <div class="productDesginDescription reveal">
+            <div class="productDesginDescription reveal" data-scroll-indicator-title="11. Implementation">
                 <h6 class="productTOC">11. Implementation</h6>
                 <h5 class="productTitle">Front-end Development</h5>
                 <h5 class="productDetails">Engineers and I have collaborated on the front-end development together. We
@@ -410,7 +421,7 @@
 
 
             <!--12. Testings-->
-            <div class="productDesginDescription reveal">
+            <div class="productDesginDescription reveal" data-scroll-indicator-title="12. Testings">
                 <h6 class="productTOC">12. Testings</h6>
                 <h5 class="productTitle">Usability Tests After Launch</h5>
                 <h5 class="productDetails">After the first launch, we conducted another usability test in order to
@@ -448,16 +459,86 @@
             </div>
 
 
+            <!--13. Insights-->
+            <div class="productDesginDescription reveal" data-scroll-indicator-title="13. Insights">
+                <h6 class="productTOC">13. Insights</h6>
+                <h5 class="productTitle">Data Analysis</h5>
+
+                <h5 class="productSmallTitle">Measure Quantitative Metrics:</h5>
+                <ul>
+                    <li>
+                        <h5 class="productDetails">Time on a task / speed: we can calculate the average time users used
+                            to accomplish each task in order to have an idea of which task is easier compare to others,
+                            and if one user shows a faster speed on one test would that influences the speed on other
+                            tasks as well?</h5>
+                    </li>
+                    <li>
+                        <h5 class="productDetails">Success rate / goal fulfillment : understand user's habit maybe
+                            different from team to team, but we can calculate if this difference if significant or not
+                        </h5>
+                    </li>
+                </ul>
+
+                <h5 class="productSmallTitle">Measure Qualitative Metrics:</h5>
+                <ul>
+                    <li>
+                        <h5 class="productDetails">Subjective satisfaction / Expectation matching: this data will be
+                            collected through participates' answers to certain questions. Because sometimes users maybe
+                            expect to accomplish the task through a different method.</h5>
+                    </li>
+                    <li>
+                        <h5 class="productDetails">Perceived effort or difficulty: this data will also be collected
+                            through questions or survey at the end, because it's possible for participants to finish the
+                            task in a short period of time but still subjectively feel the process is too complex or had
+                            confusion. We can collect these feedbacks in order to make each step easier.</h5>
+                    </li>
+                </ul>
+
+                <div class="detailsX">
+                    <img src="./images/2_XPC/New/13-1.png">
+                </div>
+
+                <div class="detailsX">
+                    <img src="./images/2_XPC/New/13-2.png">
+                </div>
+            </div>
 
 
+            <!--14. Takeaway-->
+            <div class="productDesginDescription reveal" data-scroll-indicator-title="14. Takeaway">
+                <h6 class="productTOC">14. Takeaway</h6>
+                <h5 class="productTitle">‘Final’ Refinements</h5>
+                <h5 class="productDetails">During the UT, we discovered that some tasks appear easier for specific roles
+                    while others don’t. And there is a significant difference on learning habits between product oweners
+                    and engineers.
+                    Design of an web application is never final, it has to be up-to date as well as adapable to all the
+                    upcoming needs. However, the discoveries from the usability testing were extremely helpful as people
+                    from each department use this platform differently. Based on the feedbacks, I started another run of
+                    refinements.
+                </h5>
+            </div>
 
 
+            <!--15. Team-->
+            <div class="productDesginDescription reveal" data-scroll-indicator-title="15. Team">
+                <h6 class="productTOC">15. Team</h6>
+                <h5 class="productTitle">Special Thanks</h5>
+                <h5 class="productDetails">My time at Coupang was one of the most fun work experiences I’ve ever had.
+                    Being able to learn from some of the most talented people in such a tight knit team, helped me level
+                    up my skills and challenge my design thinkings.
+                </h5>
+                <div class="detailsX">
+                    <img src="./images/2_XPC/New/15.png">
+                </div>
+                <h5 class="productLegend">As a side project, I also designed the new branding system for Experiment
+                    Platform team. These portraits are my gifts and special thanks for all the team memebers.
+                </h5>
+            </div>
 
 
 
         </div>
-
-
+      
 
 
 
@@ -479,7 +560,10 @@
 
     <!-- References Links -->
     <!-- <script src='https://d3js.org/d3.v5.min.js'></script> -->
+    <script type="text/javascript" src="./src/easyScrollDots.min.js"></script>
     <script src="./src/script.js"></script>
+
+
     <!-- <script src="./libraries/odometer.min.js"></script> -->
 
 

@@ -149,3 +149,14 @@ function reveal() {
 }
 
 window.addEventListener("scroll", reveal);
+
+
+
+// Scroll dots animation
+
+easyScrollDots({
+  'fixedNav': true, // Set to true if you have a fixed nav.
+  'fixedNavId': 'myNav', // Set to the id of your navigation element if 'fixedNav' is true (easyScrollDots will measure the height of the element).
+  'fixedNavUpward': true, // Set to true if your nav is only sticky when the user is scrolling up (requires 'fixedNav' to be true and 'fixedNavId' to be a value).
+  'offset': 30 // Set to the amount of pixels you wish to offset the scroll amount by (any positive number).
+});
