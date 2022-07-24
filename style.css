@@ -13,6 +13,7 @@ html {
     font-style: normal;
 }
 
+
 @font-face {
     font-family: 'akzidenz-grotesk_stdmedium';
     src: url('./Fonts/Grotesk/akzidenzgroteskstd-md-webfont.woff2') format('woff2'),
@@ -53,6 +54,7 @@ html {
     font-style: normal;
 }
 
+
 @font-face {
     font-family: 'akzidenz-grotesk_stdBdCnIt';
     src: url('./Fonts/Grotesk/akzidenzgroteskstd-boldcnit-webfont.woff2') format('woff2'),
@@ -61,6 +63,7 @@ html {
     font-style: normal;
 }
 
+
 @font-face {
     font-family: 'akzidenz-grotesk_stdBdEx';
     src: url('./Fonts/Grotesk/akzidenzgroteskstd-boldex-webfont.woff2') format('woff2'),
@@ -68,6 +71,17 @@ html {
     font-weight: normal;
     font-style: normal;
 }
+
+
+@font-face {
+    font-family: 'akzidenz-grotesk_stdMdEx';
+    src: url('./Fonts/Grotesk/akzidenzgroteskstd-mdex-webfont.woff2') format('woff2'),
+         url('./Fonts/Grotesk/akzidenzgroteskstd-mdex-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 @font-face {
     font-family: 'akzidenz-grotesk_stdBdExIt';
@@ -795,7 +809,7 @@ h4 {
 /* branding project details description */
 h5 {
     /* font-family: AkzidenzGroteskStd-BoldEx; */
-    font-family: akzidenz-grotesk_stdBdEx;
+    font-family: akzidenz-grotesk_stdMdEx;
     /* font-family: aktiv-grotesk-extended,sans-serif;
     font-weight: 900;
     font-style: normal; */
@@ -806,7 +820,9 @@ h5 {
     line-height: 32px; 
 }
 h5.regular {
-    font-family: akzidenz-grotesk_stdmedium;
+    font-family: akzidenz-grotesk_stdregular;
+    font-size: 20px;
+    line-height: 25px; 
     /* font-family: aktiv-grotesk,sans-serif;
     font-weight: 400;
     font-style: normal; */
@@ -867,7 +883,7 @@ h5.productLegend{
 }
 h6.productTOC {
     font-family: akkuratregular;
-    color: #337CF3;
+    color: #696969;
     /* padding-bottom: 30px; */
     font-size: 12px;
     font-weight: 700;
