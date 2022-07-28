@@ -125,6 +125,7 @@ function updateClock() {
     
     // document.getElementById("time-elapsed").innerHTML = year+ "year(s)" + d +" day(s), "+h+" hour(s), "+m+" minute(s), "+s+" second(s) working";
     document.getElementById("time-elapsed").innerHTML = year+ "yrs " + month+"mos " + d+"ds " + s+"s of";
+    // document.getElementById("time-elapsed").innerHTML = year+ "yrs " + month+"mos " + s+"s of";
 
 }
 

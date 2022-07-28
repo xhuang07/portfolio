@@ -493,7 +493,14 @@ a.projectNav:hover {
     position: relative;
 }
 
-
+em{
+    /* font-family: akzidenz-grotesk_stdmedium; */
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #05160F;
+    color: #EEEDE9;
+    font-weight: bold;
+   font-style: normal;
+}
 
 /* Link-inside project */
 a.insideLink{
