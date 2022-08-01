@@ -32,7 +32,7 @@
         <div class="w3-col w3-container m9 l7">
             <nav>
                 <a class="nav__link" href="index.html">Projects</a>
-                <a class="nav__link" href="info.html">Info</a>
+                <a class="nav__link" href="info2.html">Info</a>
             </nav>
         </div>
     </header>
@@ -54,7 +54,7 @@
             <div class="introduction">
                 <h2 class="selfintro">
                     <!-- <a class="projectNav" href="index.html">Xingwei</a> is just a designer with -->
-                    <em>X</em>ingwei is just a designer with
+                    <a class="underlineLink" href="./documents/Resume_Xingwei(2022).pdf" target="_blank"><em>X</em>ingwei</a> is just a designer with
                     <span id="time-elapsed">
                     </span>
                     experience on crafting products. She loves bakery
@@ -80,7 +80,7 @@
                             </g>
                         </g>
                     </svg>
-                    (a.k.a. Trypophobia).
+                    (a.k.a. <a class="underlineLink" href="https://en.wikipedia.org/wiki/Trypophobia" target="_blank">Trypophobia</a>).
                 </h2>
                 <!-- uncomment to show the image below -->
                 <!-- <img src="./images/intro/me.JPG"> -->
@@ -94,7 +94,8 @@
             </h5>       -->
             <h5 class="intro">She doesn’t want to
                 label herself as a product designer <span class="italicIntro">(yet)</span>, preferred to be recognized
-                as a problem-solver or just “a designer”. Previously she has worked in design positions at Apple, TheGreenEyl, Pentagram and Coupang. Feel free to drop her a line :) Cheers!
+                as a problem-solver or just “a designer”. Previously she has worked in design positions at Apple,
+                TheGreenEyl, Pentagram and Coupang.
             </h5>
         </div>
 
@@ -103,14 +104,46 @@
             <hr style="height:2px;border-width:0;color:gray;background-color:gray">
         </div>
 
-        
-        <!--Left Container-->
-        <div class="w3-col w3-container m10 l10" style="padding-top: 20px; padding-right:20px; padding-bottom: 100px;">
-            <h5 class="intro">Resume</h5>
-            <h5 class="intro">Linkedin</h5>
 
+        <!--Left Container-->
+        <div class="w3-col w3-container m5 l5" style="padding-top: 20px; padding-right:200px; padding-bottom: 100px;">
+            <h5 class="smallText">She is available for freelance. Feel free to drop her a line :) or grab a coffee on
+                any topics. Cheers!</h5>
         </div>
 
+        <div class="w3-col w3-container m4 l4" style="padding-top: 20px; padding-right:20px;">
+            <h5 class="smallText">Based in San Francisco <br />
+                <div id="para1"></div>
+                <!-- <input type="text" id="currentDateTime">                -->
+                <script>
+                    // var today = new Date();
+                    // var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+                    // var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+                    // var dateTime = date + ' ' + time;
+                    // document.getElementById("currentDateTime").value = dateTime;
+                    document.getElementById("para1").innerHTML = formatAMPM();
+                    function formatAMPM() {
+                        var d = new Date(),
+                            minutes = d.getMinutes().toString().length == 1 ? '0' + d.getMinutes() : d.getMinutes(),
+                            hours = d.getHours().toString().length == 1 ? '0' + d.getHours() : d.getHours(),
+                            ampm = d.getHours() >= 12 ? 'pm' : 'am',
+                            months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                            days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+                        // return days[d.getDay()] + ' ' + months[d.getMonth()] + ' ' + d.getDate() + ' ' + d.getFullYear() + ' ' + hours + ':' + minutes + ampm;
+                        return hours + ':' + minutes + ampm;
+        
+                    }
+                </script>
+
+            </h5>
+        </div>
+
+        <div class="w3-col w3-container m3 l3" style="padding-top: 20px; padding-right:20px;">
+            <h5 class="smallText">
+                <a class="underlineLink" href="./documents/Resume_Xingwei(2022).pdf" target="_blank">Resume</a><br/>
+                <a class="underlineLink" href="https://www.linkedin.com/in/xingwei-huang/" target="_blank">LinkedIn</a>
+            </h5>
+        </div>
     </div>
 
     <!-- References Links -->

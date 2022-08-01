@@ -161,3 +161,6 @@ easyScrollDots({
   'fixedNavUpward': true, // Set to true if your nav is only sticky when the user is scrolling up (requires 'fixedNav' to be true and 'fixedNavId' to be a value).
   'offset': 30 // Set to the amount of pixels you wish to offset the scroll amount by (any positive number).
 });
+
+
+// Local time 

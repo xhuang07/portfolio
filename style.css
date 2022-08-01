@@ -493,6 +493,12 @@ a.projectNav:hover {
     position: relative;
 }
 
+a.underlineLink:hover{
+    text-decoration: underline;
+    /* color:#e0635c; */
+
+}
+
 em{
     /* font-family: akzidenz-grotesk_stdmedium; */
 	-webkit-text-stroke-width: 2px;
@@ -809,7 +815,15 @@ h4 {
     text-align: right;
 }
 
-/* scroll dots indicator*/
+/* self-intro resume links */
+h5.smallText {
+    font-family: 'Akzidenz-Grotesk Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0px;
+}
 
 
 
@@ -850,7 +864,6 @@ h5.bottomFooter {
 }
 
 
-
 /* product design project details description */
 h5.productTitle{
     color: #05160F;
@@ -874,7 +887,6 @@ h5.productSmallTitle{
     color: #05160F;
     font-family: akkuratbold;
     font-size: 18px;
-    /* font-weight: 700; */
     line-height: 30px;
     letter-spacing: 0px;
     text-align: left;
