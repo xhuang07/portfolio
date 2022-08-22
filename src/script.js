@@ -30,7 +30,7 @@ var checkHeader = _.throttle(() => {
 window.addEventListener('scroll', checkHeader);
 
 
-//cursor
+//cursor black
 const updateProperties = (elem, state) => {
     elem.style.setProperty('--x', `${state.x}px`)
     elem.style.setProperty('--y', `${state.y}px`)
@@ -81,6 +81,60 @@ const updateProperties = (elem, state) => {
     })
   })
   
+
+//cursor white
+const updateProperties2 = (elem, state) => {
+  elem.style.setProperty('--x', `${state.x}px`)
+  elem.style.setProperty('--y', `${state.y}px`)
+  elem.style.setProperty('--width', `${state.width}px`)
+  elem.style.setProperty('--height', `${state.height}px`)
+  elem.style.setProperty('--radius', state.radius)
+  elem.style.setProperty('--scale', state.scale)
+}
+
+document.querySelectorAll('.cursorW').forEach(cursorW => {
+  let onElement
+
+  const createState2 = e => {
+    const defaultState = {
+      x: e.clientX,
+      y: e.clientY,
+      width: 40,
+      height: 40,
+      radius: '50%'
+    }
+
+    const computedState = {}
+
+    if (onElement != null) {
+      const { top, left, width, height } = onElement.getBoundingClientRect()
+      const radius = window.getComputedStyle(onElement).borderTopLeftRadius
+      // computedState.x = left + width / 2
+      // computedState.y = top + height / 2
+      // computedState.width = width
+      // computedState.height = height
+      // computedState.radius = radius
+    }
+
+    return {
+      ...defaultState,
+      ...computedState
+    }
+  }
+
+  document.addEventListener('mousemove', e => {
+    const state2 = createState2(e)
+    updateProperties2(cursorW, state2)
+  })
+
+  document.querySelectorAll('a, button').forEach(elem => {
+    elem.addEventListener('mouseenter', () => (onElement = elem))
+    elem.addEventListener('mouseleave', () => (onElement = undefined))
+  })
+})
+
+
+
   // Enable hidden nav bar
   {
     const nav = document.querySelector(".nav");
@@ -173,3 +227,18 @@ window.addEventListener('scroll', () => {
     document.body.scrollTop || document.documentElement.scrollTop;
   scrollProgress.style.width = `${(scrollTop / height) * 100}%`;
 });
+
+
+//Top Navigation Active effect
+// Add active class to the current button (highlight it)
+var header = document.getElementById("topNav");
+var btns = header.getElementsByClassName("nav__link");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  if (current.length > 0) { 
+    current[0].className = current[0].className.replace(" active", "");
+  }
+  this.className += " active";
+  });
+}
