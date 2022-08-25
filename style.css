@@ -466,7 +466,7 @@ body {
 
 
 
-/* Link-top navigation */
+/* Top navigation link effects */
 a.nav__link {
     margin-right: 30px;
     /* margin-right: 0; */
@@ -476,6 +476,8 @@ a.nav__link {
     color: #000000;
     text-decoration: none;
     font-family: akzidenz-grotesk_stdmedium;
+    display: inline-block;
+    position: relative;
     /* font-family: grifo_lregular; */
     /* text-align: right; */
 }
@@ -485,23 +487,35 @@ a.nav__link:last-child {
     text-align: right;
 }
 
-a.nav__link:hover {
-	/* -webkit-text-stroke-width: 1px;
+/* a.nav__link:hover {
+	-webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000000;
-    color: #EEEDE9; */
-    text-decoration: underline;    
-}
-
-/* a.nav__link:active{
-    background-color: #666;
-    color: white;
+    color: #EEEDE9;
+    text-decoration: underline;       
 } */
 
+a.nav__link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: currentColor;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+a.nav__link:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
 
 
 
 
-/* Link-project page navigation */
+
+/* Index page project navigation */
 a:link {
     text-decoration: none;
 }
@@ -511,34 +525,55 @@ a.projectNav:hover {
     color: #EEEDE9;
     position: relative;
 }
-
 a.underlineLink:hover{
     text-decoration: underline;
     /* color:#e0635c; */
-
 }
-
 em{
     /* font-family: akzidenz-grotesk_stdmedium; */
 	-webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #000000;
     color: #EEEDE9;
     font-weight: bold;
-   font-style: normal;
+    font-style: normal;
 }
 
-/* Link-inside project */
+
+/* Branding project inside links*/
 a.insideLink{
-    color: orangered;
+    display: inline-block;
+    position: relative;
+    /* text-decoration: underline; */
+    /* color: #0087ca; */
+    /* color: orangered; */
     /* font-family: GrifoS-Regular; */
     /* font-family: 'IBM Plex Mono', monospace;     */
     /* font-family: Rubik; */
     /* background-color: lightgrey; */
 }
-a.insideLink:hover{
+/* a.insideLink:hover{
+    text-decoration: none;
     color: orangered;
     text-decoration-line: line-through;
     font-family: GrifoS-italic;
+} */
+
+a.insideLink::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: currentColor;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+a.insideLink:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 /*footer link*/
@@ -940,6 +975,17 @@ h5.regular {
     font-weight: 400;
     font-style: normal; */
 }
+
+h5.brandingRegular {
+    font-family: akzidenz-grotesk_stdregular;
+    font-size: 25px;
+    line-height: 35px; 
+    /* font-family: aktiv-grotesk,sans-serif;
+    font-weight: 400;
+    font-style: normal; */
+}
+
+
 h5.intro {
     font-family: akzidenz-grotesk_stdmedium;
     /* font-family: aktiv-grotesk-extended,sans-serif;
