@@ -451,13 +451,12 @@ body {
 
 .nav {
     height: var(--nav-height);
-    transition:  transform 0.6s;
+    transition:  transform 0.4s;
 }
 
 .nav--hidden {
-    transform: translateY(calc(-1 * var(--nav-height)+140px));
+    transform: translateY(calc(-1 * var(--nav-height)));
 }
-
 
 
 /* Top navigation link effects */
@@ -477,13 +476,15 @@ a.nav__link:last-child {
     text-align: right;
 }
 
+
+
 /* a.nav__link:hover {
 	-webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000000;
     color: #EEEDE9;
     text-decoration: underline;       
 } */
-/* 
+
 a.nav__link::after {
     content: '';
     position: absolute;
@@ -499,7 +500,7 @@ a.nav__link::after {
 a.nav__link:hover:after{
     transform: scaleX(1);
     transform-origin: bottom left;
-} */
+}
 
 
 
