@@ -30,6 +30,8 @@ var checkHeader = _.throttle(() => {
 window.addEventListener('scroll', checkHeader);
 
 
+
+
 //cursor black
 const updateProperties = (elem, state) => {
     elem.style.setProperty('--x', `${state.x}px`)
@@ -81,6 +83,8 @@ const updateProperties = (elem, state) => {
     })
   })
   
+
+
 
 //cursor white
 const updateProperties2 = (elem, state) => {
@@ -135,6 +139,7 @@ document.querySelectorAll('.cursorW').forEach(cursorW => {
 
 
 
+
   // Enable hidden nav bar
   {
     const nav = document.querySelector(".nav");
@@ -152,39 +157,42 @@ document.querySelectorAll('.cursorW').forEach(cursorW => {
   
 
 
+
 // Timer counter
-var startDateTime = new Date(2018,2,26,2,1,0,0); // YYYY (M-1) D H m s (start time and date from DB)
-var startStamp = startDateTime.getTime();
+// var startDateTime = new Date(2018,2,26,2,1,0,0); // YYYY (M-1) D H m s (start time and date from DB)
+// var startStamp = startDateTime.getTime();
 
-var newDate = new Date();
-var newStamp = newDate.getTime();
+// var newDate = new Date();
+// var newStamp = newDate.getTime();
 
-var timer;
+// var timer;
 
-function updateClock() {
-    newDate = new Date();
-    newStamp = newDate.getTime();
-    var diff = Math.round((newStamp-startStamp)/1000);
+// function updateClock() {
+//     newDate = new Date();
+//     newStamp = newDate.getTime();
+//     var diff = Math.round((newStamp-startStamp)/1000);
     
-    var year = Math.floor(diff/(24*60*60*365));
-    diff = diff-(year*24*60*60*365);
-    var month = Math.floor(diff/(24*60*60*31));
-    diff = diff-(month*24*60*60*31);  
-    var d = Math.floor(diff/(24*60*60));
-    diff = diff-(d*24*60*60);
-    var h = Math.floor(diff/(60*60));
-    diff = diff-(h*60*60);
-    var m = Math.floor(diff/(60));
-    diff = diff-(m*60);
-    var s = diff;
+//     var year = Math.floor(diff/(24*60*60*365));
+//     diff = diff-(year*24*60*60*365);
+//     var month = Math.floor(diff/(24*60*60*31));
+//     diff = diff-(month*24*60*60*31);  
+//     var d = Math.floor(diff/(24*60*60));
+//     diff = diff-(d*24*60*60);
+//     var h = Math.floor(diff/(60*60));
+//     diff = diff-(h*60*60);
+//     var m = Math.floor(diff/(60));
+//     diff = diff-(m*60);
+//     var s = diff;
     
-    // document.getElementById("time-elapsed").innerHTML = year+ "year(s)" + d +" day(s), "+h+" hour(s), "+m+" minute(s), "+s+" second(s) working";
-    document.getElementById("time-elapsed").innerHTML = year+ "yrs " + month+"mos " + d+"ds " + s+"s of";
-    // document.getElementById("time-elapsed").innerHTML = year+ "yrs " + month+"mos " + s+"s of";
+//     // document.getElementById("time-elapsed").innerHTML = year+ "year(s)" + d +" day(s), "+h+" hour(s), "+m+" minute(s), "+s+" second(s) working";
+//     document.getElementById("time-elapsed").innerHTML = year+ "yrs " + month+"mos " + d+"ds " + s+"s of";
+//     // document.getElementById("time-elapsed").innerHTML = year+ "yrs " + month+"mos " + s+"s of";
 
-}
+// }
 
-setInterval(updateClock, 1000);
+// setInterval(updateClock, 1000);
+
+
 
 
 //Scroll animation effect
@@ -219,27 +227,30 @@ easyScrollDots({
 
 
 //Progress bar
-const scrollProgress = document.getElementById('scroll-progress');
-const height =
-  document.documentElement.scrollHeight - document.documentElement.clientHeight;
+// const scrollProgress = document.getElementById('scroll-progress');
+// const height =
+//   document.documentElement.scrollHeight - document.documentElement.clientHeight;
 
-window.addEventListener('scroll', () => {
-  const scrollTop =
-    document.body.scrollTop || document.documentElement.scrollTop;
-  scrollProgress.style.width = `${(scrollTop / height) * 100}%`;
-});
+// window.addEventListener('scroll', () => {
+//   const scrollTop =
+//     document.body.scrollTop || document.documentElement.scrollTop;
+//   scrollProgress.style.width = `${(scrollTop / height) * 100}%`;
+// });
 
 
 //Top Navigation Active effect
 // Add active class to the current button (highlight it)
-var header = document.getElementById("topNav");
-var btns = header.getElementsByClassName("nav__link");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active");
-  if (current.length > 0) { 
-    current[0].className = current[0].className.replace(" active", "");
-  }
-  this.className += " active";
-  });
-}
+// var header = document.getElementById("topNav");
+// var btns = header.getElementsByClassName("nav__link");
+// for (var i = 0; i < btns.length; i++) {
+//   btns[i].addEventListener("click", function() {
+//   var current = document.getElementsByClassName("active");
+//   if (current.length > 0) { 
+//     current[0].className = current[0].className.replace(" active", "");
+//   }
+//   this.className += " active";
+//   });
+// }
+
+
+

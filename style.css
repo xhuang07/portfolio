@@ -759,6 +759,14 @@ div.detailsX img {
     /* left: 100px;  */
 }
 
+
+.headline {
+    width: 100%;
+    height: auto;
+    display: block; 
+    position: static;  
+}
+
 .details {
     margin-top: 20px; 
     margin-bottom: 20px;  
@@ -774,7 +782,7 @@ div.detailsX img {
 
 .detailsX {
     margin-top: 0px; 
-    margin-bottom: 0px;  
+    margin-bottom: 80px;  
     /* margin-right: 10px; */
     /* margin-left: 10px; */
 }
@@ -803,8 +811,16 @@ div.heroImage img {
 
 .date {
     margin-bottom: 240px;  
+    padding-left: 10px;
 }
 
+.stickyNumber {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+    background-color: #EEEDE9;
+
+}
 
 
 
@@ -880,9 +896,6 @@ h1 {
 h2 {
     /* font-family: AkzidenzGroteskStd-BoldEx; */
     font-family: akzidenz-grotesk_stdBdEx;
-    /* font-family: aktiv-grotesk-extended,sans-serif;
-    font-weight: 900;
-    font-style: normal; */
     font-size: 140px;
     color: #000000;
     text-transform: uppercase;
@@ -1041,7 +1054,7 @@ h6.productTOC {
     text-transform: uppercase;
 }
 .productDesginDescription {
-    padding-bottom: 96px;
+    padding-bottom: 60px;
 }
 
 ul {
@@ -1075,7 +1088,7 @@ h6.tools {
 footer {
     text-align: right;
     padding-right: 20px;
-    background-color: EEEDE9;
+    background-color: #EEEDE9;
     color: black;
     font-family: grifo_sregular;
     font-size: 25px; 
