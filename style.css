@@ -478,13 +478,6 @@ a.nav__link:last-child {
 
 
 
-/* a.nav__link:hover {
-	-webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #000000;
-    color: #EEEDE9;
-    text-decoration: underline;       
-} */
-
 a.nav__link::after {
     content: '';
     position: absolute;
@@ -819,6 +812,8 @@ div.heroImage img {
     position: sticky;
     top: 100px;
     background-color: #EEEDE9;
+    z-index: 0;
+    height: 100px;
 
 }
 
