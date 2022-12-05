@@ -16,22 +16,29 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
     <link rel="shortcut icon" type="image/png" href="./images/favicon.png">
     <script src="https://d3js.org/d3.v5.js"></script>
+
 </head>
 
-<body style="background-color:#EEEDE9;">
+<body style="background-color:#000000;">
+
 
 
     <div class="cursor"></div>
 
     <header class="nav">
-        <div class="w3-col w3-container m5 l5" style="padding-left:0px; padding-right:0px;">
+        <div class="w3-col w3-container m9 l9" style="padding-left:0px; padding-right:0px;">
+            <!-- <nav> -->
             <!-- <h1>Xingwei <span class="italic">Huang</span></h1>  -->
-            <h1><span class="italic">x</span> breadcrumbs</h1> 
+            <h1 style="color:#cacaca"><span class="italic">x</span> breadcrumbs</h1>
+            <!-- </nav> -->
+
         </div>
-        <div class="w3-col w3-container m7 l7">                            
+        <div class="w3-col w3-container m3 l3"
+            style="display: flex; justify-content: flex-end; padding-left:0px; padding-right:0px;">
             <nav>
-                <a class="nav__link" href="index.html">Projects</a>
-                <a class="nav__link" href="info.html">Info</a>
+                <a class="nav__link" href="index.html" style="color:#cacaca">Work</a>
+                <a class="nav__link" href="play.html" style="color:#cacaca">Play</a>
+                <a class="nav__link" href="info.html" style="color:#cacaca">Info</a>
             </nav>
         </div>
     </header>
@@ -39,27 +46,32 @@
 
 
     <div class="container">
-        <h3>'Continuum'</h3>
+        <h3 style="color:#cacaca">'Continuum'</h3>
     </div>
 
 
 
     <div class="w3-row">
 
-        <!--Left Container-->
-        <div class="w3-col w3-container m5 l5" style="padding-top: 200px; padding-right:20px;">
-            <div class="date">
-                <h6>Project Type</h6>
-                <h6 class="tools">Digital Design</h6>
+        <!--Hero Images-->
+        <div class="heroImage">
+            <img src="./images/20_Continuum/03.jpeg">
+        </div>
 
-                <h6>Tools</h6>
-                <h6 class="tools">
+        <!--Left Container-->
+        <div class="w3-col w3-container m3 l5" style="padding-top: 100px; padding-right:20px;">
+            <div class="date">
+                <h6 class="productTOC">Project Type</h6>
+                <h6 class="tools" style="color:#cacaca">Book Design</h6>
+
+                <h6 class="productTOC">Tools</h6>
+                <h6 class="tools" style="color:#cacaca">
                     Sketch<br />
                     Adobe XD<br />
                 </h6>
 
-                <h6>Project Team</h6>
-                <h6 class="tools">
+                <h6 class="productTOC">Project Team</h6>
+                <h6 class="tools" style="color:#cacaca">
                     Shigeto Akiyama<br />
                     Ken Deegan<br />
                     Jack Collins<br />
@@ -67,88 +79,121 @@
                     Ryan Smith<br />
                     Dana Reginiano<br />
                 </h6>
+
             </div>
         </div>
+
 
         <!--Right Container-->
-        <div class="w3-col w3-container m7 l7" style="padding-top: 200px; padding-right:20px;">
-            <div class="projectDescription">
-                <h5>Redesign of the bimonthly journal published by the American Academy of Neurology.</h5>
-                <h5 class="regular">
+        <div class="w3-col w3-container m9 l7" style="padding-top: 100px; padding-bottom:100px; padding-right:20px;">
+            <div class="projectDescription reveal">
+                <h5 style="color:#cacaca">
+                    Redesign of the bimonthly journal published by the American Academy of Neurology.
+                </h5>
+                <h5 class="brandingRegular" style="color:#cacaca">
                     The clean, streamlined look of the redesigned magazine extends to the Continuum website, which has been optimized for mobile and features enhanced functionality and readability.
                 </h5>
-                <h5 class="regular"><a class="insideLink"
-                        href="https://www.pentagram.com/work/continuum/story">Full project details</a>.
-                </h5>
+                <h5 class="brandingRegular" style="color:#cacaca"><a class="insideLink"
+                        href="https://www.pentagram.com/work/continuum/story" target="_blank">View
+                        Project on Pentagram</a></h5>
+
             </div>
         </div>
 
+    </div>
 
-        <!--Detail Images-->
 
-        <div class="details">
-            <img src="./images/20_Continuum/01.jpeg">
-        </div>
+    <!--Full Width Image-->
+    <div class="brandDetails">
+        <img src="./images/20_Continuum/01.jpeg">
+    </div>
 
-        <div class="details">
-            <img src="./images/20_Continuum/02.jpeg">
-        </div>
-
-        <div class="details">
-            <img src="./images/20_Continuum/03.jpeg">
-        </div>
-
-        <div class="details">
+    <!--Left Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px; padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/20_Continuum/04.jpeg">
         </div>
+    </div>
 
-        <div class="details">
-            <img src="./images/20_Continuum/05.jpeg">
-        </div>
-
-        <div class="details">
-            <img src="./images/20_Continuum/06.jpeg">
-        </div>
-
-        <div class="details">
+    <!--Right Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px;  padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/20_Continuum/07.jpeg">
         </div>
+    </div>
 
-        <div class="details">
+    <!--Full Width Image-->
+    <div class="brandDetails">
+        <img src="./images/20_Continuum/06.jpeg">
+    </div> 
+
+
+    <!--Left Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px; padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/20_Continuum/08.jpeg">
         </div>
+    </div>
 
-        <div class="details">
+    <!--Right Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px;  padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/20_Continuum/09.jpeg">
         </div>
+    </div>    
 
-        <div class="details">
-            <img src="./images/20_Continuum/10.jpeg">
-        </div>
 
-        <div class="details">
+    <!--Full Width Image-->
+    <div class="brandDetails">
+        <img src="./images/20_Continuum/10.jpeg">
+    </div> 
+
+
+    <!--Full Width Image-->
+    <div class="brandDetails">
+        <img src="./images/20_Continuum/02.jpeg">
+    </div>
+
+    <!--Full Width Image-->
+    <div class="brandDetails">
+        <img src="./images/20_Continuum/13.jpeg">
+    </div>  
+
+
+    <!--Left Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px; padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/20_Continuum/11.jpeg">
         </div>
+    </div>
 
-        <div class="details">
+    <!--Right Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px;  padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/20_Continuum/12.jpeg">
         </div>
+    </div>   
 
-        <div class="details">
-            <img src="./images/20_Continuum/13.jpeg">
+
+
+
+    <!--Footer-->
+    <footer style="background-color:#000000;" >
+        <div>
+            <h5 class="bottomFooter" style="color:#cacaca">
+                <a class="footerLink" href="aGuiltyPleasure.html">Previous</a> /
+                <a class="footerLink" href="continuum.html">Next</a>
+            </h5>
         </div>
 
-        <!--Footer-->
-        <footer>
-            <div>
-                <h5 class="bottomFooter">
-                    <a class="footerLink" href="laheyYears.html">Previous</a> /
-                    <a class="footerLink" href="ouro.html">Next</a>
-                </h5>
-            </div>
+    </footer>
 
-        </footer>
-    </div>
 
 
 

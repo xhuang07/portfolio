@@ -535,6 +535,18 @@ a.insideLink{
     /* font-family: Rubik; */
     /* background-color: lightgrey; */
 }
+
+a.insideLinkProduct{
+    display: inline-block;
+    position: relative;
+    /* text-decoration: underline; */
+    /* color: #0087ca; */
+    /* color: orangered; */
+    /* font-family: GrifoS-Regular; */
+    /* font-family: 'IBM Plex Mono', monospace;     */
+    /* font-family: Rubik; */
+    /* background-color: lightgrey; */
+}
 /* a.insideLink:hover{
     text-decoration: none;
     color: orangered;
@@ -559,6 +571,9 @@ a.insideLink:hover:after{
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+
+
+
 
 /*footer link*/
 a.footerLink:hover{
