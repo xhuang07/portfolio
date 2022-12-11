@@ -16,22 +16,29 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
     <link rel="shortcut icon" type="image/png" href="./images/favicon.png">
     <script src="https://d3js.org/d3.v5.js"></script>
+
 </head>
 
-<body style="background-color:#EEEDE9;">
+<body style="background-color:#000000;">
 
 
-    <div class="cursor"></div>
+
+    <div class="cursorW"></div>
 
     <header class="nav">
-        <div class="w3-col w3-container m5 l5" style="padding-left:0px; padding-right:0px;">
+        <div class="w3-col w3-container m9 l9" style="padding-left:0px; padding-right:0px;">
+            <!-- <nav> -->
             <!-- <h1>Xingwei <span class="italic">Huang</span></h1>  -->
-            <h1><span class="italic">x</span> breadcrumbs</h1> 
+            <h3 style="font-size: 60px;"><a href="index.html" style="color:#cacaca">✹</a></h3>
+            <!-- </nav> -->
+
         </div>
-        <div class="w3-col w3-container m7 l7">                            
+        <div class="w3-col w3-container m3 l3"
+            style="display: flex; justify-content: flex-end; padding-left:0px; padding-right:0px;">
             <nav>
-                <a class="nav__link" href="index.html">Projects</a>
-                <a class="nav__link" href="info.html">Info</a>
+                <a class="nav__link" href="index.html" style="color:#cacaca">Work</a>
+                <a class="nav__link" href="play.html" style="color:#cacaca">Play</a>
+                <a class="nav__link" href="info.html" style="color:#cacaca">Info</a>
             </nav>
         </div>
     </header>
@@ -39,37 +46,43 @@
 
 
     <div class="container">
-        <h3>Right Twice A Day</h3>
+        <h3 style="color:#cacaca">Right Twice A Day</h3>
     </div>
 
 
 
     <div class="w3-row">
 
-        <!--Left Container-->
-        <div class="w3-col w3-container m5 l5" style="padding-top: 200px; padding-right:20px;">
-            <div class="date">
-                <h6>Project Type</h6>
-                <h6 class="tools">Data Visualization</h6>
+        <!--Hero Images-->
+        <!-- <div class="heroImage">
+            <img src="./images/7_Symphony/1.png">
+        </div> -->
 
-                <h6>Tools</h6>
-                <h6 class="tools">
+        <!--Left Container-->
+        <div class="w3-col w3-container m3 l5" style="padding-top: 100px; padding-right:20px;">
+            <div class="date">
+                <h6 class="productTOC">Project Type</h6>
+                <h6 class="tools" style="color:#cacaca">Data Visualization</h6>
+
+                <h6 class="productTOC">Tools</h6>
+                <h6 class="tools" style="color:#cacaca">
                     p5.js<br />
                     HTML<br />
                 </h6>
 
+
             </div>
         </div>
 
-        <!--Right Container-->
-        <div class="w3-col w3-container m7 l7" style="padding-top: 200px; padding-right:20px;">
-            <div class="projectDescription">
-                <!-- <h5>By using p5.js music function, each data dot is clickable and has been tied to a music note.
-                    Surprisingly it really forms a ‘melody’.</h5> -->
-                <h5 class="regular">Looking at graphical representations of time throughout history, quite often we use
-                    the linear metaphor, such as 'timeline' or seconds and minutes' ticks in a physical clock.
 
-                    In the final concept I used retinal variables of a LINE (such as size, position, color of a line
+        <!--Right Container-->
+        <div class="w3-col w3-container m9 l7" style="padding-top: 100px; padding-bottom:100px; padding-right:20px;">
+            <div class="projectDescription">
+                <h5 style="color:#cacaca">
+                    Looking at graphical representations of time throughout history, quite often we use
+                    the linear metaphor, such as 'timeline' or seconds and minutes' ticks in a physical clock.
+                </h5>
+                <h5 class="brandingRegular" style="color:#cacaca">I used retinal variables of a LINE (such as size, position, color of a line
                     etc.) to represent different aspect of TIME. The whole canvas is divided into two parts: foreground
                     and background. Squares in the foreground indicate calendar values while elements in the background
                     represent clock time values.
@@ -78,75 +91,104 @@
                     12 (*2) line mean Jan... Fullness of the moon is represented by the thickness of pill shape. And day
                     of the week is represented by a different orientated pill shape. In the background, left line is
                     second's indicator, its X coordinates moves 13 units towards right margin as ‘second’ proceeds.
-                    Right line is the minute's indicator, width of the line grows as ‘minute’ proceeds.
-
-                </h5>
-                <h5 class="regular"><a class="insideLink"
+                    Right line is the minute's indicator, width of the line grows as ‘minute’ proceeds.</h5>
+                <h5 class="brandingRegular" style="color:#cacaca"><a class="insideLink"
                         href="https://xingwei726.github.io/dvia-2019/1.mapping-time/Final-hybrid-time&line/">Live
                         link</a>.
                 </h5>
+
             </div>
         </div>
 
-
-        <!--Detail Images-->
-        <div class="details">
-            <!-- <video controls> -->
-            <video width="800px" style="margin-left: 600px"  controls>
-                <source src="./images/9_RightTwiceADay/RightTwiceADay.mp4" type="video/mp4">
-                <!-- Your browser does not support the video tag. -->
-            </video>
-        </div>
+    </div>
 
 
-        <div class="details">
+    <!--Full Width Image-->
+    <div class="brandDetails">
+        <video width="800px" style="margin-left: 600px"  controls>
+            <source src="./images/9_RightTwiceADay/RightTwiceADay.mp4" type="video/mp4">
+            <!-- Your browser does not support the video tag. -->
+        </video>    
+    </div>
+
+    <!--Full Width Image-->
+    <div class="brandDetails">
+        <img src="./images/9_RightTwiceADay/3.png">
+    </div>
+
+    <!--Left Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px; padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/9_RightTwiceADay/1.png">
         </div>
+    </div>
 
-        <div class="details">
+    <!--Right Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px;  padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/9_RightTwiceADay/2.png">
         </div>
+    </div>
 
-        <div class="details">
-            <img src="./images/9_RightTwiceADay/3.png">
-        </div>
 
-        <div class="details">
+
+    <!--Left Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px; padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/9_RightTwiceADay/4.png">
         </div>
+    </div>
 
-        <div class="details">
+    <!--Right Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px;  padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/9_RightTwiceADay/5.png">
         </div>
+    </div>
 
-        <div class="details">
-            <img src="./images/9_RightTwiceADay/6.png">
-        </div>
+    <!--Full Width Image-->
+    <div class="brandDetails">
+        <img src="./images/9_RightTwiceADay/6.png">
+    </div>    
 
-        <div class="details">
+
+    <!--Left Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px; padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/9_RightTwiceADay/7.png">
         </div>
-
-        <div class="details">
-            <img src="./images/9_RightTwiceADay/8.png">
-        </div>
-
-        <div class="details">
-            <img src="./images/9_RightTwiceADay/9.png">
-        </div>
-
-                   
-        <!--Footer-->
-        <footer>
-            <div>
-                <h5 class="bottomFooter">
-                    <a class="footerLink" href="symphony.html">Previous</a> /
-                    <a class="footerLink" href="dataStructure.html">Next</a>
-                </h5>
-            </div>
-
-        </footer>
     </div>
+
+    <!--Right Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px;  padding-right:0px;">
+        <div class="brandDetails">
+            <img src="./images/9_RightTwiceADay/8.png">
+        </div> 
+    </div>
+
+    <!--Full Width Image-->
+    <div class="brandDetails">
+        <img src="./images/9_RightTwiceADay/9.png">
+    </div>
+
+
+    <!--Footer-->
+    <footer style="background-color:#000000;">
+        <div>
+            <h5 class="bottomFooter" style="color:#cacaca">
+                <a class="footerLink" href="aGuiltyPleasure.html">Previous</a> /
+                <a class="footerLink" href="continuum.html">Next</a>
+            </h5>
+        </div>
+
+    </footer>
+
 
 
 

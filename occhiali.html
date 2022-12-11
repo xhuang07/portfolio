@@ -16,22 +16,29 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
     <link rel="shortcut icon" type="image/png" href="./images/favicon.png">
     <script src="https://d3js.org/d3.v5.js"></script>
+
 </head>
 
-<body style="background-color:#EEEDE9;">
+<body style="background-color:#000000;">
 
 
-    <div class="cursor"></div>
+
+    <div class="cursorW"></div>
 
     <header class="nav">
-        <div class="w3-col w3-container m5 l5" style="padding-left:0px; padding-right:0px;">
+        <div class="w3-col w3-container m9 l9" style="padding-left:0px; padding-right:0px;">
+            <!-- <nav> -->
             <!-- <h1>Xingwei <span class="italic">Huang</span></h1>  -->
-            <h1><span class="italic">x</span> breadcrumbs</h1> 
+            <h3 style="font-size: 60px;"><a href="index.html" style="color:#cacaca">✹</a></h3>
+            <!-- </nav> -->
+
         </div>
-        <div class="w3-col w3-container m7 l7">                            
+        <div class="w3-col w3-container m3 l3"
+            style="display: flex; justify-content: flex-end; padding-left:0px; padding-right:0px;">
             <nav>
-                <a class="nav__link" href="index.html">Projects</a>
-                <a class="nav__link" href="info.html">Info</a>
+                <a class="nav__link" href="index.html" style="color:#cacaca">Work</a>
+                <a class="nav__link" href="play.html" style="color:#cacaca">Play</a>
+                <a class="nav__link" href="info.html" style="color:#cacaca">Info</a>
             </nav>
         </div>
     </header>
@@ -39,131 +46,215 @@
 
 
     <div class="container">
-        <h3>Occhiali</h3>
+        <h3 style="color:#cacaca">Occhiali</h3>
     </div>
 
 
 
     <div class="w3-row">
 
-        <!--Left Container-->
-        <div class="w3-col w3-container m5 l5" style="padding-top: 200px; padding-right:20px;">
-            <div class="date">
-                <h6>Project Type</h6>
-                <h6 class="tools">Branding</h6>
-
-                <h6>Tools</h6>
-                <h6 class="tools">
-                    Indesign<br />
-                </h6>
-
-            </div>
-        </div>
-
-        <!--Right Container-->
-        <div class="w3-col w3-container m7 l7" style="padding-top: 200px; padding-right:20px;">
-            <div class="projectDescription">
-                <h5 class="regular">For people who need to wear a pair of glasses daily, they will be accompanied by this special friend for the most of their lifetime. Since then, they basically work, eat and live together, this friend even define the way about how they perceive the world. </h5>
-            </div>
-        </div>
-
-
-        <!--Detail Images-->
-
-        <div class="detailsX">
-            <img src="./images/18_Occhiali/1.jpeg">
-        </div>
-
-        <div class="detailsX">
-            <img src="./images/18_Occhiali/2.jpeg">
-        </div>
-
-        <div class="detailsX">
-            <img src="./images/18_Occhiali/3.jpeg">
-        </div>
-
-        <div class="detailsX">
+        <!--Hero Images-->
+        <div class="heroImage">
             <img src="./images/18_Occhiali/4.jpeg">
         </div>
 
-        <div class="detailsX">
+        <!--Left Container-->
+        <div class="w3-col w3-container m3 l5" style="padding-top: 100px; padding-right:20px;">
+            <div class="date">
+                <h6 class="productTOC">Project Type</h6>
+                <h6 class="tools" style="color:#cacaca">Branding</h6>
+
+                <h6 class="productTOC">Tools</h6>
+                <h6 class="tools" style="color:#cacaca">
+                    Indesign<br />
+                </h6>
+
+
+            </div>
+        </div>
+
+
+        <!--Right Container-->
+        <div class="w3-col w3-container m9 l7" style="padding-top: 100px; padding-bottom:100px; padding-right:20px;">
+            <div class="projectDescription reveal">
+                <h5 style="color:#cacaca">
+                    This identity is inspired by Hong Kong neon culture which is also the original city for Dim Sum.
+                </h5>
+                <h5 class="brandingRegular" style="color:#cacaca">
+                    For people who need to wear a pair of glasses daily, they will be accompanied by
+                    this special friend for the most of their lifetime. Since then, they basically work, eat and live
+                    together, this friend even define the way about how they perceive the world. 
+                </h5>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--Full Width Image-->
+    <!-- <div class="brandDetails">
+        <img src="./images/13_TravelApp/2.jpeg">
+    </div> -->
+
+    <!--Left Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px; padding-right:0px;">
+        <div class="brandDetails">
+            <img src="./images/18_Occhiali/1.jpeg">
+        </div>
+    </div>
+
+    <!--Right Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px;  padding-right:0px;">
+        <div class="brandDetails">
+            <img src="./images/18_Occhiali/2.jpeg">
+        </div>
+    </div>
+
+    
+    <!--Left Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px; padding-right:0px;">
+        <div class="brandDetails">
+            <img src="./images/18_Occhiali/3.jpeg">
+        </div>
+    </div>
+
+    <!--Right Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px;  padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/18_Occhiali/5.jpeg">
         </div>
-
-        <div class="detailsX">
+    </div>
+    
+    <!--Left Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px; padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/18_Occhiali/6.jpeg">
         </div>
+    </div>
 
-        <div class="detailsX">
+    <!--Right Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px;  padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/18_Occhiali/7.jpeg">
         </div>
+    </div>
 
-        <div class="detailsX">
+    <!--Left Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px; padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/18_Occhiali/8.jpeg">
         </div>
+    </div>
 
-        <div class="detailsX">
+    <!--Right Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px;  padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/18_Occhiali/9.jpeg">
         </div>
+    </div>
 
-        <div class="detailsX">
+    <!--Left Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px; padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/18_Occhiali/10.jpeg">
         </div>
+    </div>
 
-
-        <div class="detailsX">
+    <!--Right Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px;  padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/18_Occhiali/11.jpeg">
         </div>
+    </div>
 
-        <div class="detailsX">
+
+    <!--Left Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px; padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/18_Occhiali/12.jpeg">
         </div>
+    </div>
 
-        <div class="detailsX">
+    <!--Right Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px;  padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/18_Occhiali/13.jpeg">
         </div>
+    </div>
 
-        <div class="detailsX">
+    <!--Left Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px; padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/18_Occhiali/14.jpeg">
         </div>
+    </div>
 
-        <div class="detailsX">
+    <!--Right Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px;  padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/18_Occhiali/15.jpeg">
         </div>
+    </div>
 
-        <div class="detailsX">
+    <!--Left Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px; padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/18_Occhiali/16.jpeg">
         </div>
+    </div>
 
-        <div class="detailsX">
+    <!--Right Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px;  padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/18_Occhiali/17.jpeg">
         </div>
-
-        <div class="detailsX">
-            <img src="./images/18_Occhiali/18.jpeg">
-        </div>
-
-        <div class="detailsX">
-            <img src="./images/18_Occhiali/19.jpeg">
-        </div>
-
-        <div class="detailsX">
-            <img src="./images/18_Occhiali/20.jpeg">
-        </div>
-
-
-
-        <!--Footer-->
-        <footer>
-            <div>
-                <h5 class="bottomFooter">
-                    <a class="footerLink" href="nomWah.html">Previous</a> /
-                    <a class="footerLink" href="strawberrphobia.html">Next</a>
-                </h5>
-            </div>
-
-        </footer>
     </div>
+
+    <!--Full Width Image-->
+    <div class="brandDetails">
+        <img src="./images/18_Occhiali/18.jpeg">
+    </div>
+
+    <!--Full Width Image-->
+    <div class="brandDetails">
+        <img src="./images/18_Occhiali/19.jpeg">
+    </div>
+
+    <!--Full Width Image-->
+    <div class="brandDetails">
+        <img src="./images/18_Occhiali/20.jpeg">
+    </div>
+
+
+    <!--Footer-->
+    <footer style="background-color:#000000;">
+        <div>
+            <h5 class="bottomFooter" style="color:#cacaca">
+                <a class="footerLink" href="aGuiltyPleasure.html">Previous</a> /
+                <a class="footerLink" href="continuum.html">Next</a>
+            </h5>
+        </div>
+
+    </footer>
+
 
 
 

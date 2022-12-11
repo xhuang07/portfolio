@@ -16,22 +16,29 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
     <link rel="shortcut icon" type="image/png" href="./images/favicon.png">
     <script src="https://d3js.org/d3.v5.js"></script>
+
 </head>
 
-<body style="background-color:#EEEDE9;">
+<body style="background-color:#000000;">
 
 
-    <div class="cursor"></div>
+
+    <div class="cursorW"></div>
 
     <header class="nav">
-        <div class="w3-col w3-container m5 l5" style="padding-left:0px; padding-right:0px;">
+        <div class="w3-col w3-container m9 l9" style="padding-left:0px; padding-right:0px;">
+            <!-- <nav> -->
             <!-- <h1>Xingwei <span class="italic">Huang</span></h1>  -->
-            <h1><span class="italic">x</span> breadcrumbs</h1> 
+            <h3 style="font-size: 60px;"><a href="index.html" style="color:#cacaca">✹</a></h3>
+            <!-- </nav> -->
+
         </div>
-        <div class="w3-col w3-container m7 l7">                            
+        <div class="w3-col w3-container m3 l3"
+            style="display: flex; justify-content: flex-end; padding-left:0px; padding-right:0px;">
             <nav>
-                <a class="nav__link" href="index.html">Projects</a>
-                <a class="nav__link" href="info.html">Info</a>
+                <a class="nav__link" href="index.html" style="color:#cacaca">Work</a>
+                <a class="nav__link" href="play.html" style="color:#cacaca">Play</a>
+                <a class="nav__link" href="info.html" style="color:#cacaca">Info</a>
             </nav>
         </div>
     </header>
@@ -39,34 +46,45 @@
 
 
     <div class="container">
-        <h3>Dark & Sweet</h3>
+        <h3 style="color:#cacaca">Dark & Sweet</h3>
+        <!-- <h5 class="intro">Apple of My Eyes</h5> -->
+
     </div>
 
 
 
     <div class="w3-row">
 
-        <!--Left Container-->
-        <div class="w3-col w3-container m5 l5" style="padding-top: 200px; padding-right:20px;">
-            <div class="date">
-                <h6>Project Type</h6>
-                <h6 class="tools">Book Design</h6>
+        <!--Hero Images-->
+        <div class="heroImage">
+            <img src="./images/12_D&S/16.gif">
+        </div>
 
-                <h6>Tools</h6>
-                <h6 class="tools">
+        <!--Left Container-->
+        <div class="w3-col w3-container m3 l5" style="padding-top: 100px; padding-right:20px;">
+            <div class="date">
+                <h6 class="productTOC">Project Type</h6>
+                <h6 class="tools" style="color:#cacaca">Book Design</h6>
+
+                <h6 class="productTOC">Tools</h6>
+                <h6 class="tools" style="color:#cacaca">
                     Indesign<br />
                     Photoshop<br />
                 </h6>
 
+
             </div>
         </div>
 
+
         <!--Right Container-->
-        <div class="w3-col w3-container m7 l7" style="padding-top: 200px; padding-right:20px;">
-            <div class="projectDescription">
-                <h5>Convert a “low-brow” theme TV show and its contents into an beautifully bound book. This project
-                    tests the limits of how a person interacts with a book to digest the contents.</h5>
-                <h5 class="regular">
+        <div class="w3-col w3-container m9 l7" style="padding-top: 100px; padding-bottom:100px; padding-right:20px;">
+            <div class="projectDescription reveal">
+                <h5 style="color:#cacaca">
+                    Convert a “low-brow” theme TV show and its contents into an beautifully bound book. This project
+                    tests the limits of how a person interacts with a book to digest the contents.
+                </h5>
+                <h5 class="brandingRegular" style="color:#cacaca">
                     This book analyze each character from two angles, one is about the hidden “dark”
                     side, the other shows the “sweet” side.
 
@@ -74,115 +92,180 @@
                     hardcover there is a pill-shape button which can be turned either vertically or horizontally.
                     Depends on which direction user chose unconsciously, they opened up a book which presents a unique
                     perspective about this show.
-
                 </h5>
+
 
             </div>
         </div>
 
+    </div>
 
-        <!--Detail Images-->
+    <!--Full Width Image-->
+    <!-- <div class="brandDetails">
+        <img src="./images/12_D&S/2.png">
+    </div> -->
 
-        <div class="details">
-            <img src="./images/12_D&S/16.gif">
-        </div>
-
-        <div class="details">
-            <img src="./images/12_D&S/2.png">
-        </div>
-
-        <div class="details">
+    <!--Left Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px; padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/12_D&S/3.png">
         </div>
+    </div>
 
-        <div class="details">
+
+    <!--Right Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px;  padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/12_D&S/4.png">
         </div>
+    </div>
 
-        <div class="details">
-            <img src="./images/12_D&S/5.png">
-        </div>
 
-        <div class="details">
+
+    <!--Left Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px; padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/12_D&S/6.png">
         </div>
+    </div>
 
-        <div class="details">
+
+    <!--Right Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px;  padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/12_D&S/7.png">
         </div>
+    </div>
 
-        <div class="details">
-            <img src="./images/12_D&S/8.png">
-        </div>
-
-        <div class="details">
-            <img src="./images/12_D&S/9.png">
-        </div>
-
-        <div class="details">
-            <img src="./images/12_D&S/10.png">
-        </div>
-
-        <div class="details">
-            <img src="./images/12_D&S/11.png">
-        </div>
-
-        <div class="details">
-            <img src="./images/12_D&S/12.png">
-        </div>
-
-
-        <div class="details">
-            <img src="./images/12_D&S/13.png">
-        </div>
-
-        <div class="details">
+    
+    <!--Left Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px; padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/12_D&S/14.png">
         </div>
+    </div>
 
-        <div class="details">
+
+    <!--Right Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px;  padding-right:0px;">
+        <div class="brandDetails">
+            <img src="./images/12_D&S/11.png">
+        </div>
+    </div>
+
+
+    <!--Left Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px; padding-right:0px;">
+        <div class="brandDetails">
+            <img src="./images/12_D&S/12.png">
+        </div>
+    </div>
+
+
+    <!--Right Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px;  padding-right:0px;">
+        <div class="brandDetails">
+            <img src="./images/12_D&S/13.png">
+        </div>
+    </div>
+
+    <!--Left Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px; padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/12_D&S/15.png">
         </div>
+    </div>
 
-        <div class="details">
-            <img src="./images/12_D&S/1.png">
+
+    <!--Right Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px;  padding-right:0px;">
+        <div class="brandDetails">
+            <img src="./images/12_D&S/9.png">
         </div>
+    </div>
 
-        <div class="details">
+
+    <!--Full Width Image-->
+    <div class="brandDetails">
+        <img src="./images/12_D&S/1.png">
+    </div>   
+
+
+    <!--Left Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px; padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/12_D&S/17.png">
         </div>
+    </div>
 
-        <div class="details">
+
+    <!--Right Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px;  padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/12_D&S/18.png">
         </div>
+    </div>
 
-        <div class="details">
+    <!--Left Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px; padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/12_D&S/19.png">
         </div>
+    </div>
 
-        <div class="details">
+
+    <!--Right Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px;  padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/12_D&S/20.png">
         </div>
+    </div>
 
-        <div class="details">
+    <!--Left Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px; padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/12_D&S/21.png">
         </div>
+    </div>
 
-        <div class="details">
+
+    <!--Right Half-width Image-->
+    <div class="w3-col w3-container m12 l6"
+        style="padding-top: 0px; padding-bottom: 10px; padding-left:0px;  padding-right:0px;">
+        <div class="brandDetails">
             <img src="./images/12_D&S/22.png">
         </div>
-
-        <!--Footer-->
-        <footer>
-            <div>
-                <h5 class="bottomFooter">
-                    <a class="footerLink" href="artBookFair.html">Previous</a> /
-                    <a class="footerLink" href="twoModes.html">Next</a>
-                </h5>
-            </div>
-
-        </footer>
     </div>
+
+  
+
+
+    <!--Footer-->
+    <footer style="background-color:#000000;">
+        <div>
+            <h5 class="bottomFooter" style="color:#cacaca">
+                <a class="footerLink" href="aGuiltyPleasure.html">Previous</a> /
+                <a class="footerLink" href="continuum.html">Next</a>
+            </h5>
+        </div>
+
+    </footer>
+
 
 
 
