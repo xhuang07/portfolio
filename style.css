@@ -577,6 +577,7 @@ a.insideLink:hover:after{
     margin-top: 40px;
 
 }
+
 /* button CSS */
 .button-56 {
   align-items: center;
@@ -635,6 +636,11 @@ a.insideLink:hover:after{
     padding: 0 40px;
   }
 }
+
+
+
+
+
 
 
 /*footer link*/
@@ -919,6 +925,15 @@ div.heroImage img {
     position: sticky;
     top: 100px;
     background-color: #EEEDE9;
+    z-index: auto;
+    height: 100px;
+}
+
+.stickyNumberBlack {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+    background-color: #000000;
     z-index: auto;
     height: 100px;
 }
