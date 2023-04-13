@@ -444,10 +444,10 @@ header {
     transition: padding 300ms ease;
 }
 
+
 body {
     --nav-height: 70px;
     padding-top: var(--nav-height);
-    margin: 0;
 }
 
 .nav {
@@ -463,10 +463,9 @@ body {
 
 /* Top navigation link effects */
 a.nav__link {
-    /* margin-right: 30px; */
+    margin-right: 30px;
     margin-left: auto; 
     font-size: 30px;
-    /* font-size: 24px; */
     color: #000000;
     text-decoration: none;
     font-family: akzidenz-grotesk_stdmedium;
@@ -474,10 +473,10 @@ a.nav__link {
     position: relative;
 }
 
-/* a.nav__link:last-child {
-    margin-right: 0px;
+a.nav__link:last-child {
+    margin-right: 0;
     text-align: right;
-} */
+}
 
 a.nav__link::after {
     content: '';
@@ -497,55 +496,6 @@ a.nav__link:hover:after{
 }
 
 
-/* Below is just a test for menu icon (can be delete)*/
-.nav .icon {
-    display: none;
-  }
-
-.nav {
-  overflow: hidden;
-} 
-
-.nav a {
-    float: left;
-    display: block;
-  }
-
-
-@media screen and (max-width: 600px) {
-    .nav a:not(:first-child) {display: none;}
-    .nav a.icon {
-      float: right;
-      display: block;
-    }
-  }
-  
-@media screen and (max-width: 600px) {
-    /* .nav.responsive {position: relative;} */
-    .nav.responsive .icon {
-      position: absolute;
-      right: 0;
-      /* top: 0; */
-    }
-    .nav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-      margin-left: 0px;
-      margin-right: 20px;
-
-    }
-
-    .nav.responsive a.nav__link {
-      font-size: 22px;
-    }
-
-    .nav.responsive a.home {
-      display: none; 
-    }
-  }
-
-/* Above is just a test for menu icon (can be delete)*/
 
 
 
@@ -1291,6 +1241,8 @@ h6.tools {
     line-height: 25px;
     padding-bottom: 30px;
 }
+
+
 
 
 

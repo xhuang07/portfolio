@@ -12,31 +12,38 @@
     <link rel="stylesheet" href="https://use.typekit.net/jas4rxq.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./stylesheet.css">
     <link rel="shortcut icon" type="image/png" href="./images/favicon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://d3js.org/d3.v5.js"></script>
 </head>
 
 <body style="background-color:#EEEDE9;">
 
+    <!-- <header area can be copied>-->
     <div class="cursor"></div>
 
-    <!-- <header area can be copied>-->
-    <header class="nav" id="myTopnav">
-        <!-- <nav> -->
-        <a class="home" href="index copy.html">
-            <h1><span class="italic">x</span> breadcrumbs</h1>
-        </a>
-        <a class="nav__link" href="index copy.html">Work</a>
-        <a class="nav__link" href="play.html">Play</a>
-        <a class="nav__link" href="info.html">Info</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-        <!-- </nav> -->
-    </header>
-    <!-- </header> -->
+    <header class="nav">
 
+        <div class="w3-col w3-container m9 l9" style="padding-left:0px; padding-right:0px;">
+            <!-- <nav> -->
+            <h1><span class="italic">x</span> breadcrumbs</h1>
+            <!-- </nav> -->
+
+        </div>
+
+        <div id="topNav" class="w3-col w3-container m3 l3"
+            style="display: flex; justify-content: flex-end; padding-left:0px; padding-right:0px;">
+            <nav>
+                <a class="nav__link" href="index.html">Work</a>
+                <a class="nav__link" href="play.html">Play</a>
+                <a class="nav__link" href="info.html">Info</a>
+            </nav>
+        </div>
+
+
+    </header>
+
+    <!-- </header> -->
 
     <div class="container">
         <h3>A collection of works by Xingwei, currently tinkering @<a class="underlineLink" href="https://www.split.io/"
@@ -115,7 +122,7 @@
                 <img class="index" src="./images/5_OURO/Cover.png">
             </div>
         </div>
-
+        
 
         <div class="w3-col w3-container m3 l3" class="content">
             <h4>2016</h4>
@@ -305,7 +312,9 @@
     </div>
 
     <!-- References Links -->
+    <!-- <script src='https://d3js.org/d3.v5.min.js'></script> -->
     <script src="./src/script.js"></script>
+    <!-- <script src="./libraries/odometer.min.js"></script> -->
 
 
 </body>
