@@ -204,13 +204,28 @@ this.className += " active";
 }
 
 
-//Below is just top nav test (can be delete)
+//Click on menu function
+// function myFunction() {
+//   var x = document.getElementById("myTopnav");
+//   if (x.className === "nav") {
+//     x.className += " responsive";
+//   } else {
+//     x.className = "nav";
+//   }
+
+// }
+
+//Click on menu function
 function myFunction() {
   var x = document.getElementById("myTopnav");
+  var y = document.getElementById("myIcon");
   if (x.className === "nav") {
     x.className += " responsive";
+    // y.style.display = "none"
+    // y.className = "fa fa-times";
   } else {
     x.className = "nav";
+
   }
 }
 
