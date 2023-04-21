@@ -17,6 +17,8 @@
     <link rel="shortcut icon" type="image/png" href="./images/favicon.png">
     <link rel="stylesheet" type="text/css" href="./easyScrollDots.min.css" />
     <script src="https://d3js.org/d3.v5.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 
 </head>
@@ -26,20 +28,22 @@
 
     <div class="cursor"></div>
 
-    <header class="nav">
-        <div class="w3-col w3-container m9 l9" style="padding-left:0px; padding-right:0px;">
-            <h3 style="font-size: 60px;"><a href="index.html">✹</a></h3>
-        </div>
 
-        <div class="w3-col w3-container m3 l3"
-            style="display: flex; justify-content: flex-end; padding-left:0px; padding-right:0px;">
-            <nav>
-                <a class="nav__link" href="index.html">Work</a>
-                <a class="nav__link" href="play.html">Play</a>
-                <a class="nav__link" href="info.html">Info</a>
-            </nav>
-        </div>
+    <header class="nav" id="myTopnav">
+        <!-- <a class="home" href="index.html">
+            <h1><span class="italic">x</span> breadcrumbs</h1>
+        </a> -->
+        <a class="home" href="index.html">
+            <h3 style="font-size: 60px;">✹</h3>
+        </a>
+        <a class="nav__link" href="index.html">/ Work</a>
+        <a class="nav__link" href="play.html">/ Play</a>
+        <a class="nav__link" href="info.html">/ Info</a>
+        <a href="javascript:void(0);" class="icon" id="myIcon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </header>
+
 
 
     <div class="container">
@@ -769,7 +773,7 @@
         <div>
             <h5 class="bottomFooter">
                 <!-- <a class="footerLink" href="aGuiltyPleasure.html">Previous</a> / -->
-                <a class="footerLink" href="aGuiltyPleasure.html">Next</a>
+                <a class="footerLink" href="AGP.html">Next</a>
             </h5>
         </div>
     </footer>
