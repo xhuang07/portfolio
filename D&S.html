@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" type="text/css" href="./style.css">
     <link rel="shortcut icon" type="image/png" href="./images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
     <script src="https://d3js.org/d3.v5.js"></script>
 
 </head>
@@ -25,22 +26,16 @@
 
     <div class="cursorW"></div>
 
-    <header class="nav">
-        <div class="w3-col w3-container m9 l9" style="padding-left:0px; padding-right:0px;">
-            <!-- <nav> -->
-            <!-- <h1>Xingwei <span class="italic">Huang</span></h1>  -->
-            <h3 style="font-size: 60px;"><a href="index.html" style="color:#cacaca">✹</a></h3>
-            <!-- </nav> -->
-
-        </div>
-        <div class="w3-col w3-container m3 l3"
-            style="display: flex; justify-content: flex-end; padding-left:0px; padding-right:0px;">
-            <nav>
-                <a class="nav__link" href="index.html" style="color:#cacaca">Work</a>
-                <a class="nav__link" href="play.html" style="color:#cacaca">Play</a>
-                <a class="nav__link" href="info.html" style="color:#cacaca">Info</a>
-            </nav>
-        </div>
+    <header class="nav" id="myTopnav">
+        <a class="home" href="index.html">
+            <h3 style="font-size: 60px; color:#cacaca">✹</h3>
+        </a>
+        <a class="nav__link" href="index.html" style="color:#cacaca">/ Work</a>
+        <a class="nav__link" href="play.html" style="color:#cacaca">/ Play</a>
+        <a class="nav__link" href="info.html" style="color:#cacaca">/ Info</a>
+        <a href="javascript:void(0);" class="icon" id="myIcon" onclick="myFunction()" style="color:#cacaca">
+            <i class="fa fa-bars"></i>
+        </a>
     </header>
 
 
@@ -259,8 +254,8 @@
     <footer style="background-color:#000000;">
         <div>
             <h5 class="bottomFooter" style="color:#cacaca">
-                <a class="footerLink" href="aGuiltyPleasure.html">Previous</a> /
-                <a class="footerLink" href="continuum.html">Next</a>
+                <a class="footerLink" href="artBookFair.html">Previous</a> /
+                <a class="footerLink" href="twoModes.html">Next</a>
             </h5>
         </div>
 
