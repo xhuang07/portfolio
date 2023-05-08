@@ -540,6 +540,10 @@ a.nav__link:hover:after{
     .nav.responsive a.home {
       display: none; 
     }
+
+    .nav.responsive a.icon {
+      display: none; 
+    }
   }
 
 

@@ -143,7 +143,7 @@ document.querySelectorAll('a, button').forEach(elem => {
 // Enable hidden nav bar
 {
   const nav = document.querySelector(".nav");
-  let lastScrollY = window.scrollY;
+  let lastScrollY = window.scrollY + 100;
 
   window.addEventListener("scroll", ()=>{
     if (lastScrollY < window.scrollY){
