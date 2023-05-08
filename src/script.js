@@ -204,16 +204,6 @@ this.className += " active";
 }
 
 
-//Click on menu function
-// function myFunction() {
-//   var x = document.getElementById("myTopnav");
-//   if (x.className === "nav") {
-//     x.className += " responsive";
-//   } else {
-//     x.className = "nav";
-//   }
-
-// }
 
 //Click on menu function
 function myFunction() {

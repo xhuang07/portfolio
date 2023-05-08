@@ -439,7 +439,7 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 50px 20px;
+    padding: 50px 16px;
     background-color: transparent;
     transition: padding 300ms ease;
 }
@@ -497,7 +497,7 @@ a.nav__link:hover:after{
 }
 
 
-/* Below is just a test for menu icon (can be delete)*/
+/* Menu icon */
 .nav .icon {
     display: none;
   }
@@ -542,7 +542,6 @@ a.nav__link:hover:after{
     }
   }
 
-/* Above is just a test for menu icon (can be delete)*/
 
 
 
@@ -1002,8 +1001,12 @@ div.heroImage img {
 
 .date {
     margin-bottom: 240px;  
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
+
+/* .w3-container{
+    padding-left: 10px;
+} */
 
 .stickyNumber {
     position: -webkit-sticky;
@@ -1044,7 +1047,7 @@ section.content {
 }
 
 .container {
-    padding: 20px 20px;
+    padding: 20px 16px;
     /* padding-top: 800px; */
     position: fixed;
     bottom: 0;
