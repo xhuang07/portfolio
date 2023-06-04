@@ -681,10 +681,10 @@ a.insideLink:hover:after{
 .button-57 {
     align-items: center;
     background-color: #EEEDE9;
-    border: 2px solid #111;
+    border: 2px solid #000000;
     border-radius: 8px;
     box-sizing: border-box;
-    color: #111;
+    color: #EEEDE9;
     cursor: pointer;
     display: flex;
     /* font-family: Inter,sans-serif; */
