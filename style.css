@@ -1052,7 +1052,7 @@ section.content {
 
 .container {
     padding: 20px 16px;
-    /* padding-top: 800px; */
+    z-index: 0;    
     position: fixed;
     bottom: 0;
     width: 30%;
