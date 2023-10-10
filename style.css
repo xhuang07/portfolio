@@ -1115,7 +1115,7 @@ h1 {
 h2 {
     /* font-family: AkzidenzGroteskStd-BoldEx; */
     font-family: akzidenz-grotesk_stdBdEx;
-    font-size: 140px;
+    font-size: calc(140px + 0.390625vw);
     color: #000000;
     text-transform: uppercase;
     letter-spacing: 0;
