@@ -1,6 +1,38 @@
 html {
     cursor: url("data:image/svg+xml,%3Csvg height='6' width='6' viewBox='0 0 8 8' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='4' cy='4' fill='black' r='4'/%3E%3C/svg%3E") 3 3, auto;
+    font-size: 16px;
+}
 
+@media only screen and (min-width: 480px) {
+    html {
+        /* font-size: 18px; */
+        font-size: 10px;
+
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    html {
+        /* font-size: 18px; */
+        font-size: 12px;
+
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    html {
+        /* font-size: 20px; */
+        font-size: 14px;
+
+    }
+}
+
+@media only screen and (min-width: 1240px) {
+    html {
+        /* font-size: 24px; */
+        font-size: 16px;
+
+    }
 }
 
 
@@ -1091,7 +1123,7 @@ section.content {
 /* Typography */
 h1 {
     font-family: grifo_litalic;
-    font-size: 60px;
+    font-size: 3.75rem; /* 60px */
     color: #000000;
     letter-spacing: 0;
     line-height: 1;
@@ -1115,13 +1147,14 @@ h1 {
 h2 {
     /* font-family: AkzidenzGroteskStd-BoldEx; */
     font-family: akzidenz-grotesk_stdBdEx;
-    font-size: calc(140px + 0.390625vw);
+    /* font-size: 140px; */
+    font-size: 9rem;
+
     color: #000000;
     text-transform: uppercase;
     letter-spacing: 0;
     text-align: right;
-    /* line-height: 70%； */
-    line-height: 115px;
+    line-height: 8rem;
 }
 
 h2.selfintro {
@@ -1130,12 +1163,12 @@ h2.selfintro {
     /* font-family: aktiv-grotesk-extended,sans-serif;
     font-weight: 900;
     font-style: normal; */
-    font-size: 75px;
+    font-size: 5rem; /*75px*/
     color: #000000;
     text-transform: none;
     letter-spacing: 0;
     text-align: left;
-    line-height: 75px;
+    line-height: 5rem; 
     letter-spacing: -1px;
 
 }
@@ -1144,7 +1177,7 @@ h2.selfintro {
 
 h3 {
     font-family: grifo_lregular;
-    font-size: 40px;
+    font-size: 2.5rem; /* 40px */
     color: #000000;
     line-height: 1;
 }
@@ -1153,7 +1186,7 @@ h3 {
 /* dates information */
 h4 {
     font-family: grifo_lregular;
-    font-size: 20px;
+    font-size: 1.25rem; /*20px*/
     color: #000000;
     line-height: 1;
     text-align: right;
