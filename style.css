@@ -611,11 +611,11 @@ a.insideLink:hover:after{
   display: flex;
   /* font-family: Inter,sans-serif; */
   /* font-size: 16px; */
-  height: 48px;
+  height: 3rem;
   justify-content: center;
-  line-height: 24px;
+  line-height: 1.5rem;
   max-width: 100%;
-  padding: 0 16px;
+  padding: 0 1rem;
   position: relative;
   text-align: center;
   text-decoration: none;
@@ -629,7 +629,7 @@ a.insideLink:hover:after{
   border-radius: 8px;
   content: "";
   display: block;
-  height: 48px;
+  height: 3rem;
   left: 0;
   width: 100%;
   position: absolute;
@@ -654,7 +654,7 @@ a.insideLink:hover:after{
 
 @media (min-width: 768px) {
   .button-56 {
-    padding: 0 40px;
+    padding: 0 2.5rem;
   }
 }
 
@@ -671,11 +671,11 @@ a.insideLink:hover:after{
     display: flex;
     /* font-family: Inter,sans-serif; */
     /* font-size: 16px; */
-    height: 48px;
+    height: 3rem;
     justify-content: center;
-    line-height: 24px;
+    line-height: 1.5rem;
     max-width: 100%;
-    padding: 0 16px;
+    padding: 0 1rem;
     position: relative;
     text-align: center;
     text-decoration: none;
@@ -689,7 +689,7 @@ a.insideLink:hover:after{
     border-radius: 8px;
     content: "";
     display: block;
-    height: 48px;
+    height: 3rem;
     left: 0;
     width: 100%;
     position: absolute;
@@ -958,7 +958,7 @@ div.detailsX img {
 
 .detailsX {
     margin-top: 0px; 
-    /* margin-bottom: 80px;   */
+    /* margin-bottom: 5rem;   */
     /* margin-right: 10px; */
     /* margin-left: 10px; */
 }
@@ -1211,26 +1211,26 @@ h5.bottomFooter {
 h5.productTitle{
     color: #000000;
     font-family: grifo_sregular;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 400;
-    line-height: 45px;
+    line-height: 2.5rem;
     letter-spacing: 0px;
     text-align: left;
 }
 h5.productDetails{
     color: #000000;
     font-family: akkuratregular;
-    font-size: 18px;
+    font-size: 1.25rem;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 1.875rem;
     letter-spacing: 0px;
     text-align: left;
 }
 h5.productSmallTitle{
     color: #000000;
     font-family: akkuratbold;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
     letter-spacing: 0px;
     text-align: left;
 }
@@ -1255,7 +1255,7 @@ h6.productTOC {
     text-transform: uppercase;
 }
 .productDesginDescription {
-    padding-bottom: 60px;
+    padding-bottom: 2rem;
 }
 
 
