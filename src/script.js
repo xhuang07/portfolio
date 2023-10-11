@@ -24,7 +24,7 @@ var checkHeader = _.throttle(() => {
   else {
       document.querySelector('header').classList.remove('sticky');
   }
-}, 300);
+}, 100);
 
 // Run the checkHeader function every time you scroll
 window.addEventListener('scroll', checkHeader);
@@ -143,7 +143,7 @@ document.querySelectorAll('a, button').forEach(elem => {
 // Enable hidden nav bar
 {
   const nav = document.querySelector(".nav");
-  let lastScrollY = window.scrollY + 100;
+  let lastScrollY = window.scrollY + 200;
 
   window.addEventListener("scroll", ()=>{
     if (lastScrollY < window.scrollY){
