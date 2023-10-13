@@ -595,22 +595,20 @@ a.insideLink:hover:after{
 
 /* Skip to the juicy part button*/
 .skip{
-    margin-top: 40px;
+    margin-top: 2.5rem;
 
 }
 
 /* button white CSS */
-.button-56 {
+/* .button-56 {
   align-items: center;
   background-color: #EEEDE9;
   border: 2px solid #111;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   box-sizing: border-box;
   color: #111;
   cursor: pointer;
   display: flex;
-  /* font-family: Inter,sans-serif; */
-  /* font-size: 16px; */
   height: 3rem;
   justify-content: center;
   line-height: 1.5rem;
@@ -626,15 +624,15 @@ a.insideLink:hover:after{
 
 .button-56:after {
   background-color: #111;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   content: "";
   display: block;
   height: 3rem;
   left: 0;
   width: 100%;
   position: absolute;
-  top: -2px;
-  transform: translate(8px, 8px);
+  top: -0.125rem;
+  transform: translate(0.5rem, 0.5rem);
   transition: transform .2s ease-out;
   z-index: -1;
 }
@@ -654,13 +652,69 @@ a.insideLink:hover:after{
 
 @media (min-width: 768px) {
   .button-56 {
-    padding: 0 2.5rem;
+    padding: 0 40px;
   }
-}
+} */
+
+.button-56 {
+    align-items: center;
+    background-color: #EEEDE9;
+    border: 2px solid #111;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    display: flex;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-56:after {
+    background-color: #111;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px,8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+  }
+  
+  .button-56:hover:after {
+    transform: translate(0, 0);
+  }
+  
+  .button-56:active {
+    background-color: #EEEDE9;
+    outline: 0;
+  }
+  
+  .button-56:hover {
+    outline: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .button-56 {
+      padding: 0 40px;
+    }
+  }
 
 
 /* button black CSS */
-.button-57 {
+/* .button-57 {
     align-items: center;
     background-color: #EEEDE9;
     border: 2px solid #000000;
@@ -669,8 +723,6 @@ a.insideLink:hover:after{
     color: #EEEDE9;
     cursor: pointer;
     display: flex;
-    /* font-family: Inter,sans-serif; */
-    /* font-size: 16px; */
     height: 3rem;
     justify-content: center;
     line-height: 1.5rem;
@@ -690,6 +742,62 @@ a.insideLink:hover:after{
     content: "";
     display: block;
     height: 3rem;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+  }
+  
+  .button-57:hover:after {
+    transform: translate(0, 0);
+  }
+  
+  .button-57:active {
+    background-color: #EEEDE9;
+    outline: 0;
+  }
+  
+  .button-57:hover {
+    outline: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .button-57 {
+      padding: 0 40px;
+    }
+  } */
+
+  .button-57 {
+    align-items: center;
+    background-color: #EEEDE9;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #EEEDE9;
+    cursor: pointer;
+    display: flex;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-57:after {
+    background-color: #EEEDE9;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 48px;
     left: 0;
     width: 100%;
     position: absolute;
@@ -968,8 +1076,8 @@ div.detailsX img {
 /* Hero Image for Product  */
 
 .heroImage {
-    margin-top: 30px; 
-    margin-bottom: 0px;  
+    margin-top: 2rem; 
+    margin-bottom: 2rem;  
     /* margin-right: 10px; */
     /* margin-left: 10px; */
 }
@@ -986,7 +1094,7 @@ div.heroImage img {
 
 
 .date {
-    margin-bottom: 240px;  
+    margin-bottom: 4rem;  
     /* padding-left: 10px; */
 }
 
@@ -1246,7 +1354,6 @@ h5.productLegend{
 h6.productTOC {
     font-family: akkuratregular;
     color: #696969;
-    /* padding-bottom: 30px; */
     font-size: 0.75rem;
     font-weight: 700;
     line-height: 0.875rem;
