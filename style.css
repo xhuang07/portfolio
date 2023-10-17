@@ -471,7 +471,7 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 3rem 1rem;
+    padding: 2rem 1rem;
     background-color: transparent;
     transition: padding 300ms ease;
 }
@@ -600,7 +600,7 @@ a.insideLink:hover:after{
 }
 
 /* button white CSS */
-/* .button-56 {
+.button-56 {
   align-items: center;
   background-color: #EEEDE9;
   border: 2px solid #111;
@@ -654,9 +654,9 @@ a.insideLink:hover:after{
   .button-56 {
     padding: 0 40px;
   }
-} */
+}
 
-.button-56 {
+/* .button-56 {
     align-items: center;
     background-color: #EEEDE9;
     border: 2px solid #111;
@@ -710,7 +710,7 @@ a.insideLink:hover:after{
     .button-56 {
       padding: 0 40px;
     }
-  }
+  } */
 
 
 /* button black CSS */
@@ -1066,7 +1066,7 @@ div.detailsX img {
 
 .detailsX {
     margin-top: 0px; 
-    /* margin-bottom: 5rem;   */
+    margin-bottom: 1rem;  
     /* margin-right: 10px; */
     /* margin-left: 10px; */
 }
@@ -1105,7 +1105,7 @@ div.heroImage img {
 .stickyNumber {
     position: -webkit-sticky;
     position: sticky;
-    top: 6.25rem;
+    top: 2rem;
     background-color: #EEEDE9;
     z-index: 0;
     height: 6.25rem;
@@ -1115,7 +1115,7 @@ div.heroImage img {
 .stickyNumber2 {
     position: -webkit-sticky;
     position: sticky;
-    top: 6.25rem;
+    top: 2rem; /* 6.25rem */
     background-color: #EEEDE9;
     z-index: auto;
     height: 6.25rem;
@@ -1124,7 +1124,7 @@ div.heroImage img {
 .stickyNumberBlack {
     position: -webkit-sticky;
     position: sticky;
-    top: 6.25rem;
+    top: 2rem;
     background-color: #000000;
     z-index: auto;
     height: 6.25rem;
@@ -1237,6 +1237,10 @@ h3 {
     font-size: 2.5rem; /* 40px */
     color: #000000;
     line-height: 1;
+}
+
+h3.logo {
+    font-size: 3rem;
 }
 
 
