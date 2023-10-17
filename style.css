@@ -1107,9 +1107,9 @@ div.heroImage img {
     position: sticky;
     top: 2rem;
     background-color: #EEEDE9;
-    z-index: 0;
+    z-index: -1;
     height: 6.25rem;
-    margin-top:30px;
+    margin-top:3rem;
 }
 
 .stickyNumber2 {
@@ -1119,6 +1119,7 @@ div.heroImage img {
     background-color: #EEEDE9;
     z-index: auto;
     height: 6.25rem;
+    margin-top:3rem;
 }
 
 .stickyNumberBlack {
@@ -1128,6 +1129,7 @@ div.heroImage img {
     background-color: #000000;
     z-index: auto;
     height: 6.25rem;
+    margin-top:3rem;
 }
 
   
