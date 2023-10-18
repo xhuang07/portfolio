@@ -714,7 +714,7 @@ a.insideLink:hover:after{
 
 
 /* button black CSS */
-/* .button-57 {
+.button-57 {
     align-items: center;
     background-color: #EEEDE9;
     border: 2px solid #000000;
@@ -768,9 +768,9 @@ a.insideLink:hover:after{
     .button-57 {
       padding: 0 40px;
     }
-  } */
+  }
 
-  .button-57 {
+  /* .button-57 {
     align-items: center;
     background-color: #EEEDE9;
     border: 2px solid #000000;
@@ -824,7 +824,7 @@ a.insideLink:hover:after{
     .button-57 {
       padding: 0 40px;
     }
-  }
+  } */
 
 
 
