@@ -940,12 +940,12 @@ html:not(html:hover) .cursorW::after {
 
 img{
     display: none;
-    width:500px;
+    width:30rem;
     /* border-radius: 10px; */
 }
 
 .index{
-    border-radius: 8px;
+    border-radius: 0.5rem;
 }
 
 
@@ -993,24 +993,24 @@ svg.strawberry{
 .project:hover img {
      display: block; 
      position: absolute;
-     bottom: 100px;
-     left: 100px;  
+     bottom: 6.25rem;
+     left: 6.25rem;  
      height: auto;
      margin-left: auto;
      margin-right: auto; 
-     border: 2px solid #000000;
+     border: 0.125rem solid #000000;
 }
 
 /* below codes control effect when hover on the strawberry image */
 .introduction:hover img {
     display: block; 
     position: absolute;
-    bottom: 100px;
-    left: 100px;  
+    bottom: 6.25rem;
+    left: 6.25rem;  
     height: auto;
     margin-left: auto;
     margin-right: auto; 
-    border: 2px solid #000000;
+    border: 0.125rem solid #000000;
 }
 
 
