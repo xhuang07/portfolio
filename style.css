@@ -556,6 +556,23 @@ em{
     font-style: normal;
 }
 
+/* Text highlight color */
+/* strong {
+    position: relative;
+  }
+  
+  strong::before {
+    background-color: #CBC8BD;
+    content: "";
+    position: absolute;
+    width: calc(100% + 4px);
+    height: 60%;
+    left: -2px;
+    bottom: 0;
+    z-index: -1;
+    transform: rotate(-2deg);
+  } */
+  
 
 
 /* Branding project inside links*/
