@@ -557,22 +557,13 @@ em{
 }
 
 /* Text highlight color */
-/* strong {
-    position: relative;
-  }
-  
-  strong::before {
-    background-color: #CBC8BD;
-    content: "";
-    position: absolute;
-    width: calc(100% + 4px);
-    height: 60%;
-    left: -2px;
-    bottom: 0;
-    z-index: -1;
-    transform: rotate(-2deg);
-  } */
-  
+mark{
+    /* background-color:#c0ffc8; */
+    /* background-color:#d3d3d3; */
+    background-color:#FFCEE6;
+
+}
+
 
 
 /* Branding project inside links*/
