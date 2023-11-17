@@ -514,7 +514,7 @@ a.nav__link::after {
     position: absolute;
     width: 100%;
     transform: scaleX(0);
-    height: 4px;
+    height: 0.25rem;
     bottom: 0;
     left: 0;
     background-color: currentColor;
@@ -1123,12 +1123,12 @@ h2 {
     /* font-family: AkzidenzGroteskStd-BoldEx; */
     font-family: akzidenz-grotesk_stdBdEx;
     /* font-size: 140px; */
-    font-size: 10rem;
+    font-size: 9rem;
     color: #000000;
     text-transform: uppercase;
     letter-spacing: 0;
     text-align: right;
-    line-height: 7.7rem;
+    line-height: 7rem;
 }
 
 h2.menu {
