@@ -537,10 +537,11 @@ a.projectNav:hover {
     /*uncomment below will have the outline effect*/
 	-webkit-text-stroke-width: 0.125rem;
     /* -webkit-text-stroke-color: #868686; */
+    /* color: #000000; */
+    /* transition: 500ms linear; */
     -webkit-text-stroke-color: #000000;
     color: #EEEDE9;
     position: static;
-
 }
 
 a.underlineLink:hover{
@@ -562,9 +563,7 @@ mark{
     /* background-color:#c0ffc8; */
     /* background-color:#d3d3d3; */
     background-color:#FFCEE6;
-
 }
-
 
 
 /* Branding project inside links*/
@@ -1133,8 +1132,10 @@ h2 {
 }
 
 h2.menu {
+    color: #000000
+    /* color: #b7b6b5; */
     /* color: #709ebb; */
-    /* color: #868686 */
+    /* color: #868686; */
     /* font-family: akzidenz-grotesk_stdMdEx; */
 }
 
