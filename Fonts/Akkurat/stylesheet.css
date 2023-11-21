@@ -8,11 +8,7 @@
          url('akkurat-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'akkuratbold_italic';
@@ -20,11 +16,7 @@
          url('akkurat-bolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'akkuratlight';
@@ -32,11 +24,7 @@
          url('akkurat-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'akkuratlight_italic';
@@ -44,11 +32,7 @@
          url('akkurat-lightitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'akkuratregular';
@@ -56,11 +40,7 @@
          url('akkurat-reg-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'akkuratregular_italic';
@@ -68,5 +48,4 @@
          url('akkurat-regitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
